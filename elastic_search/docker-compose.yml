@@ -1,0 +1,59 @@
+# Wirepas Oy
+
+version: '2'
+services:
+
+  # this is not recommended for production - you should have more es nodes
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.5.0
+    container_name: elasticsearch
+
+    environment:
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+
+    restart: always
+
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+    ports:
+      - 9200:9200
+
+    logging:
+      driver: journald
+
+    networks:
+      - fluentd_stream_processing
+      - elastic_network
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana-oss:6.5.0
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+
+    restart: always
+
+    ports:
+      - 5601:5601
+
+    networks:
+      - elastic_network
+
+    logging:
+      driver: journald
+
+volumes:
+  esdata:
+    driver: local
+
+networks:
+  elastic_network:
+  fluentd_stream_processing:
+    external: true
+

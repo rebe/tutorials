@@ -1,0 +1,37 @@
+# Wirepas Oy
+# To set the timezone of your server, other than utc.
+# Add the following key in the db environment with your desired TZ
+#
+# - TZ=Europe/Helsinki
+#
+
+version: '2'
+services:
+    db:
+        container_name: wm_mysql
+        image: wm_mysql:1.0.0
+        build: .
+
+        environment:
+            - MYSQL_RANDOM_ROOT_PASSWORD=yes
+            - MYSQL_DATABASE=mydatabase
+            - MYSQL_USER=myuser
+            - MYSQL_PASSWORD=mypwd
+
+
+        restart: always
+
+        # storage
+        volumes:
+            - storage:/var/lib/mysql/
+
+        # network
+        ports:
+            - 3306:3306
+
+        logging:
+            driver: journald
+
+# persistent data location
+volumes:
+    storage: {}

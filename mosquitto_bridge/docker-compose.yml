@@ -1,0 +1,19 @@
+# Wirepas Oy
+
+version: '2'
+services:
+    wm-broker-bridge:
+        image: wm-broker-bridge
+        build: .
+
+        restart: always
+
+        ports:
+            - 1883:1883
+            - 8883:8883
+
+        logging:
+            driver: journald
+
+        volumes:
+          - ./mosquitto.conf:/etc/mosquitto/conf.d/wirepas.conf

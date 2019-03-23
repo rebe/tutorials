@@ -1,0 +1,26 @@
+# Wirepas Oy
+
+
+version: '3'
+services:
+
+  fluentd:
+    build: .
+    volumes:
+      - ./fluent.conf:/fluentd/etc/fluent.conf
+    restart: always
+
+    networks:
+      - stream_processing
+
+    ports:
+      - 24224:24224
+      - 24224:24224/udp
+
+volumes:
+  esdata:
+    driver: local
+
+networks:
+  stream_processing:
+

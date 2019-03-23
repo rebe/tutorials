@@ -1,0 +1,16 @@
+# Wirepas Oy
+
+version: '2'
+services:
+    wm-broker:
+        image: wm-broker
+        build: .
+
+        restart: always
+
+        ports:
+            - 1883:1883
+            - 8883:8883
+
+        logging:
+            driver: journald

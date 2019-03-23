@@ -1,0 +1,15 @@
+# Wirepas Oy
+
+version: '2'
+services:
+    node_red:
+        image: build-node-red:latest
+        build: .
+
+        restart: always
+
+        ports:
+            - 1880:1880
+
+        logging:
+            driver: journald
