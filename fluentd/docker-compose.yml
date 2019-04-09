@@ -9,6 +9,7 @@ services:
     volumes:
       - ./fluent.conf:/fluentd/etc/fluent.conf
     restart: always
+    user: root
 
     networks:
       - stream_processing
