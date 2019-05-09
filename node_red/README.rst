@@ -38,6 +38,8 @@ select
 
 In the install interface locate and download the following requirements
 
+    node-red-node-base64 (tested with 0.1.3)
+    
     node-red-contrib-protobuf (tested with 1.0.3)
 
     node-red-contrib-binary (tested with 0.0.6)
