@@ -1,0 +1,12 @@
+language: bash
+
+services:
+  - docker
+
+dist: "xenial"
+
+install:
+  - "./.ci/install-devtools.sh"
+
+script:
+  - "./.ci/build.sh"
