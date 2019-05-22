@@ -1,285 +1,285 @@
 [
-    {
-        "id": "593ea5f8.3b68ec",
-        "type": "tab",
-        "label": "WM Node Red Example Flow",
-        "disabled": false,
-        "info": ""
-    },
-    {
-        "id": "724c1c7a.83d584",
-        "type": "mqtt in",
-        "z": "593ea5f8.3b68ec",
-        "name": "WM network",
-        "topic": "gw-event/received_data/#",
-        "qos": "1",
-        "datatype": "auto",
-        "broker": "f8fa484b.395878",
-        "x": 97,
-        "y": 180,
-        "wires": [
-            [
-                "b64d6396.1f329"
-            ]
-        ]
-    },
-    {
-        "id": "b64d6396.1f329",
-        "type": "decode",
-        "z": "593ea5f8.3b68ec",
-        "name": "Generic message to JSON",
-        "protofile": "21982a9a.a82546",
-        "protoType": "GenericMessage",
-        "x": 227,
-        "y": 248,
-        "wires": [
-            [
-                "defcdccb.eaa15",
-                "f45fd9bd.6bc9c8"
-            ]
-        ]
-    },
-    {
-        "id": "add77dca.88baf",
-        "type": "function",
-        "z": "593ea5f8.3b68ec",
-        "name": "Extract key parameters",
-        "func": "\nvar wmdata = {}\n\nwmdata.travelTimeMs = msg.payload.wirepas.packetReceivedEvent.travelTimeMs\nwmdata.payload = msg.payload.wirepas.packetReceivedEvent.payload\nwmdata.sourceAddress = msg.payload.wirepas.packetReceivedEvent.sourceAddress\nwmdata.destinationEndpoint = msg.payload.wirepas.packetReceivedEvent.destinationEndpoint\nwmdata.sourceEndpoint = msg.payload.wirepas.packetReceivedEvent.sourceEndpoint\n\nmsg.payload=wmdata\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 662.5,
-        "y": 304,
-        "wires": [
-            [
-                "4dac3752.59a378"
-            ]
-        ]
-    },
-    {
-        "id": "4dac3752.59a378",
-        "type": "debug",
-        "z": "593ea5f8.3b68ec",
-        "name": "JSON object",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 991,
-        "y": 299,
-        "wires": []
-    },
-    {
-        "id": "4302f6fd.066f28",
-        "type": "binary",
-        "z": "593ea5f8.3b68ec",
-        "name": "Positioning Application Header",
-        "pattern": "l16 => sequence, l8 => type, l8 =>length",
-        "x": 838.5,
-        "y": 557,
-        "wires": [
-            [
-                "1cf8c3e4.072b9c"
-            ]
-        ]
-    },
-    {
-        "id": "1cf8c3e4.072b9c",
-        "type": "debug",
-        "z": "593ea5f8.3b68ec",
-        "name": "Decoded APDU header",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 1151,
-        "y": 558,
-        "wires": []
-    },
-    {
-        "id": "defcdccb.eaa15",
-        "type": "base64",
-        "z": "593ea5f8.3b68ec",
-        "name": "",
-        "action": "",
-        "property": "payload.wirepas.packetReceivedEvent.payload",
-        "x": 329.5,
-        "y": 298,
-        "wires": [
-            [
-                "add77dca.88baf",
-                "9e476230.afa81"
-            ]
-        ]
-    },
-    {
-        "id": "67420016.e79b2",
-        "type": "change",
-        "z": "593ea5f8.3b68ec",
-        "name": "Extract application payload",
-        "rules": [
-            {
-                "t": "move",
-                "p": "payload.wirepas.packetReceivedEvent.payload",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 787,
-        "y": 511,
-        "wires": [
-            [
-                "4302f6fd.066f28"
-            ]
-        ]
-    },
-    {
-        "id": "9e476230.afa81",
-        "type": "switch",
-        "z": "593ea5f8.3b68ec",
-        "name": "Match source endpoint to 238",
-        "property": "payload.wirepas.packetReceivedEvent.sourceEndpoint",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "238",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 695,
-        "y": 413,
-        "wires": [
-            [
-                "35517d79.5ea852"
-            ]
-        ]
-    },
-    {
-        "id": "35517d79.5ea852",
-        "type": "switch",
-        "z": "593ea5f8.3b68ec",
-        "name": "Match destination endpoint to 238",
-        "property": "payload.wirepas.packetReceivedEvent.destinationEndpoint",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "238",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 740,
-        "y": 461,
-        "wires": [
-            [
-                "67420016.e79b2"
-            ]
-        ]
-    },
-    {
-        "id": "f45fd9bd.6bc9c8",
-        "type": "json",
-        "z": "593ea5f8.3b68ec",
-        "name": "",
-        "property": "payload",
-        "action": "str",
-        "pretty": true,
-        "x": 614,
-        "y": 194,
-        "wires": [
-            [
-                "125b0a3d.f2ab86"
-            ]
-        ]
-    },
-    {
-        "id": "125b0a3d.f2ab86",
-        "type": "debug",
-        "z": "593ea5f8.3b68ec",
-        "name": "Proto to JSON object",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 889,
-        "y": 171,
-        "wires": []
-    },
-    {
-        "id": "fc000.d3993",
-        "type": "comment",
-        "z": "593ea5f8.3b68ec",
-        "name": "Proto to JSON",
-        "info": "# Convert Proto to JSON\n\nThis flow provides you a json representation of\nthe protocol buffer message received through \nthe MQTT broker subscription.\n\n",
-        "x": 634,
-        "y": 156,
-        "wires": []
-    },
-    {
-        "id": "dd311bd5.0d3de8",
-        "type": "comment",
-        "z": "593ea5f8.3b68ec",
-        "name": "Customize an object",
-        "info": "# Retrive keys of interest\n\nThis flow demonstrates how to extract key\nparameters from your object.\n\nThe flow relies on a function to extract the\nmain parameters of interest into a new object, which\nis then transmitted forward.\n",
-        "x": 643,
-        "y": 263,
-        "wires": []
-    },
-    {
-        "id": "d7d73ce6.32af9",
-        "type": "comment",
-        "z": "593ea5f8.3b68ec",
-        "name": "Decoding a positioning header",
-        "info": "# Decoding an APDU  \n\nWirepas Mesh applications send data to and from\nspecific endpoints.\n\nEndpoints are what allow you to identify traffic\nfrom your application and to identify where\nit is coming from.\n\nA good practice is to define\nendpoints for specific data model and encoding types.\n\n\nIn this example we route positioning applications\nto the decoding stage, where we retrieve the \nsequence of the message, its type and its\nlength.\n\nPositioning messages flow solely on\n\n- source endpoint: 238\n- destination endpoint : 238\n \n",
-        "x": 677,
-        "y": 375,
-        "wires": []
-    },
-    {
-        "id": "f8fa484b.395878",
-        "type": "mqtt-broker",
-        "z": "",
-        "name": "WM MQTT API",
-        "broker": "wpewntdev.extwirepas.com",
-        "port": "8883",
-        "tls": "",
-        "clientid": "",
-        "usetls": true,
-        "compatmode": true,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
-    },
-    {
-        "id": "21982a9a.a82546",
-        "type": "protobuf-file",
-        "z": "",
-        "protopath": "/etc/protos/generic_message.proto"
-    }
+  {
+    "disabled": false,
+    "id": "593ea5f8.3b68ec",
+    "info": "",
+    "label": "WM Node Red Example Flow",
+    "type": "tab"
+  },
+  {
+    "broker": "f8fa484b.395878",
+    "datatype": "auto",
+    "id": "724c1c7a.83d584",
+    "name": "WM network",
+    "qos": "1",
+    "topic": "gw-event/received_data/#",
+    "type": "mqtt in",
+    "wires": [
+      [
+        "b64d6396.1f329"
+      ]
+    ],
+    "x": 97,
+    "y": 180,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "id": "b64d6396.1f329",
+    "name": "Generic message to JSON",
+    "protoType": "GenericMessage",
+    "protofile": "21982a9a.a82546",
+    "type": "decode",
+    "wires": [
+      [
+        "defcdccb.eaa15",
+        "f45fd9bd.6bc9c8"
+      ]
+    ],
+    "x": 227,
+    "y": 248,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "func": "\nvar wmdata = {}\n\nwmdata.travelTimeMs = msg.payload.wirepas.packetReceivedEvent.travelTimeMs\nwmdata.payload = msg.payload.wirepas.packetReceivedEvent.payload\nwmdata.sourceAddress = msg.payload.wirepas.packetReceivedEvent.sourceAddress\nwmdata.destinationEndpoint = msg.payload.wirepas.packetReceivedEvent.destinationEndpoint\nwmdata.sourceEndpoint = msg.payload.wirepas.packetReceivedEvent.sourceEndpoint\n\nmsg.payload=wmdata\n\nreturn msg;",
+    "id": "add77dca.88baf",
+    "name": "Extract key parameters",
+    "noerr": 0,
+    "outputs": 1,
+    "type": "function",
+    "wires": [
+      [
+        "4dac3752.59a378"
+      ]
+    ],
+    "x": 662.5,
+    "y": 304,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "active": true,
+    "complete": "payload",
+    "console": false,
+    "id": "4dac3752.59a378",
+    "name": "JSON object",
+    "targetType": "msg",
+    "tosidebar": true,
+    "tostatus": false,
+    "type": "debug",
+    "wires": [],
+    "x": 991,
+    "y": 299,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "id": "4302f6fd.066f28",
+    "name": "Positioning Application Header",
+    "pattern": "l16 => sequence, l8 => type, l8 =>length",
+    "type": "binary",
+    "wires": [
+      [
+        "1cf8c3e4.072b9c"
+      ]
+    ],
+    "x": 838.5,
+    "y": 557,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "active": true,
+    "complete": "payload",
+    "console": false,
+    "id": "1cf8c3e4.072b9c",
+    "name": "Decoded APDU header",
+    "targetType": "msg",
+    "tosidebar": true,
+    "tostatus": false,
+    "type": "debug",
+    "wires": [],
+    "x": 1151,
+    "y": 558,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "action": "",
+    "id": "defcdccb.eaa15",
+    "name": "",
+    "property": "payload.wirepas.packetReceivedEvent.payload",
+    "type": "base64",
+    "wires": [
+      [
+        "add77dca.88baf",
+        "9e476230.afa81"
+      ]
+    ],
+    "x": 329.5,
+    "y": 298,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "action": "",
+    "from": "",
+    "id": "67420016.e79b2",
+    "name": "Extract application payload",
+    "property": "",
+    "reg": false,
+    "rules": [
+      {
+        "p": "payload.wirepas.packetReceivedEvent.payload",
+        "pt": "msg",
+        "t": "move",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "to": "",
+    "type": "change",
+    "wires": [
+      [
+        "4302f6fd.066f28"
+      ]
+    ],
+    "x": 787,
+    "y": 511,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "checkall": "true",
+    "id": "9e476230.afa81",
+    "name": "Match source endpoint to 238",
+    "outputs": 1,
+    "property": "payload.wirepas.packetReceivedEvent.sourceEndpoint",
+    "propertyType": "msg",
+    "repair": false,
+    "rules": [
+      {
+        "t": "eq",
+        "v": "238",
+        "vt": "num"
+      }
+    ],
+    "type": "switch",
+    "wires": [
+      [
+        "35517d79.5ea852"
+      ]
+    ],
+    "x": 695,
+    "y": 413,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "checkall": "true",
+    "id": "35517d79.5ea852",
+    "name": "Match destination endpoint to 238",
+    "outputs": 1,
+    "property": "payload.wirepas.packetReceivedEvent.destinationEndpoint",
+    "propertyType": "msg",
+    "repair": false,
+    "rules": [
+      {
+        "t": "eq",
+        "v": "238",
+        "vt": "num"
+      }
+    ],
+    "type": "switch",
+    "wires": [
+      [
+        "67420016.e79b2"
+      ]
+    ],
+    "x": 740,
+    "y": 461,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "action": "str",
+    "id": "f45fd9bd.6bc9c8",
+    "name": "",
+    "pretty": true,
+    "property": "payload",
+    "type": "json",
+    "wires": [
+      [
+        "125b0a3d.f2ab86"
+      ]
+    ],
+    "x": 614,
+    "y": 194,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "active": true,
+    "complete": "payload",
+    "console": false,
+    "id": "125b0a3d.f2ab86",
+    "name": "Proto to JSON object",
+    "targetType": "msg",
+    "tosidebar": true,
+    "tostatus": false,
+    "type": "debug",
+    "wires": [],
+    "x": 889,
+    "y": 171,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "id": "fc000.d3993",
+    "info": "# Convert Proto to JSON\n\nThis flow provides you a json representation of\nthe protocol buffer message received through \nthe MQTT broker subscription.\n\n",
+    "name": "Proto to JSON",
+    "type": "comment",
+    "wires": [],
+    "x": 634,
+    "y": 156,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "id": "dd311bd5.0d3de8",
+    "info": "# Retrive keys of interest\n\nThis flow demonstrates how to extract key\nparameters from your object.\n\nThe flow relies on a function to extract the\nmain parameters of interest into a new object, which\nis then transmitted forward.\n",
+    "name": "Customize an object",
+    "type": "comment",
+    "wires": [],
+    "x": 643,
+    "y": 263,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "id": "d7d73ce6.32af9",
+    "info": "# Decoding an APDU  \n\nWirepas Mesh applications send data to and from\nspecific endpoints.\n\nEndpoints are what allow you to identify traffic\nfrom your application and to identify where\nit is coming from.\n\nA good practice is to define\nendpoints for specific data model and encoding types.\n\n\nIn this example we route positioning applications\nto the decoding stage, where we retrieve the \nsequence of the message, its type and its\nlength.\n\nPositioning messages flow solely on\n\n- source endpoint: 238\n- destination endpoint : 238\n \n",
+    "name": "Decoding a positioning header",
+    "type": "comment",
+    "wires": [],
+    "x": 677,
+    "y": 375,
+    "z": "593ea5f8.3b68ec"
+  },
+  {
+    "birthPayload": "",
+    "birthQos": "0",
+    "birthTopic": "",
+    "broker": "wmhost.extwirepas.com",
+    "cleansession": true,
+    "clientid": "",
+    "closePayload": "",
+    "closeQos": "0",
+    "closeTopic": "",
+    "compatmode": true,
+    "id": "f8fa484b.395878",
+    "keepalive": "60",
+    "name": "WM MQTT API",
+    "port": "8883",
+    "tls": "",
+    "type": "mqtt-broker",
+    "usetls": true,
+    "willPayload": "",
+    "willQos": "0",
+    "willTopic": "",
+    "z": ""
+  },
+  {
+    "id": "21982a9a.a82546",
+    "protopath": "/data/protos/generic_message.proto",
+    "type": "protobuf-file",
+    "z": ""
+  }
 ]

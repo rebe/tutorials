@@ -3,7 +3,7 @@
 version: '2'
 services:
     node_red:
-        image: build-node-red:latest
+        image: wirepas/node-red:latest
         build: .
 
         restart: always
