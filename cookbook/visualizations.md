@@ -3,6 +3,14 @@
 The next sections will guide you on how to setup [Kibana](https://www.elastic.co/products/kibana),
 [Fluentd](https://www.fluentd.org/) and [Node-Red](https://nodered.org/).
 
+
+Figure 1 describes the architecture that we will result from this exercise
+as well as the APIs used between components.
+
+
+![cookbook visualization overview][wm_cookbook_viz_overview]
+
+
 The instructions assume that you will be making the installation on a Linux
 host with all the pre-requisites met. The 3rd party services are setup
 on top of the Docker Engine, which is also available for MacOS and Windows.
@@ -64,7 +72,7 @@ If the command fails install docker-compose with
 After the installation, please ensure that your PATH variable contains the path where docker-compose is installed to:
 
 ```bash
-    PATH=${PATH}:\~./local/bin
+   PATH=${PATH}:\~./local/bin
 ````
 
 Add the instruction to your *.bashrc* file in order to preserve the path between terminal sessions.
@@ -77,7 +85,7 @@ on top of Node-RED and Kibana.
 To get started, clone the tutorials repository with:
 
 ```bash
-   git clone https://github.com/wirepas/evk.git  /home/${USER}/wirepas/tutorials
+   git clone https://github.com/wirepas/tutorials.git  /home/${USER}/wirepas/tutorials
 ```
 
 Please note that a few docker images will be pulled from our Docker hub
@@ -105,12 +113,12 @@ In this example we will be using:
 Change directory to:
 
 ```bash
-   cd /home/${USER}/wirepas/tutorials/fluentd
+   cd /home/${USER}/wirepas/tutorials/node_red
 ```
 
-Where you will find in the [instructions on how to setup Node-RED on top of Docker](https://github.com/wirepas/tutorials/blob/master/node_red/README.rst) and how to import the example flow in [wm-red-flow.json](https://github.com/wirepas/tutorials/blob/master/node_red/wm-red-flow.json).
+Where you will find in the [instructions on how to setup Node-RED on top of Docker](https://github.com/wirepas/tutorials/blob/master/node_red/README.rst).
 
-Once your flow is imported, you will have to use the MQTT credentials provided to you under sharefile and use those to connect to configure the input block. As packets arrive, the flow will decode the protocol buffer and expose common metrics. You can customize the flow further in order to decode any network payload or route data towards a service of your choise.
+As packets arrive, the flow will decode the protocol buffer and expose common metrics. You can customize the flow further in order to decode any network payload or route data towards a service of your choice.
 
 <!-- Illustrate -->
 
@@ -245,3 +253,6 @@ You can customize Kibana according to your needs and use the backend client to d
 An evaluation license will allow you to develop and build custom applications for your devices.
 
 <!-- Add screenshot -->
+
+<!-- Figures -->
+[wm_cookbook_viz_overview]:  https://github.com/wirepas/cookbook/blob/master/cookbook/img/cookbook-viz-overview.png
