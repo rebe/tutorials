@@ -5,6 +5,7 @@ version: '3'
 services:
 
   fluentd:
+    image: wirepas/fluentd:latest
     build: .
     volumes:
       - ./fluent.conf:/fluentd/etc/fluent.conf
@@ -24,4 +25,3 @@ volumes:
 
 networks:
   stream_processing:
-
