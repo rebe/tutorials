@@ -255,4 +255,4 @@ An evaluation license will allow you to develop and build custom applications fo
 <!-- Add screenshot -->
 
 <!-- Figures -->
-[wm_cookbook_viz_overview]:  https://github.com/wirepas/cookbook/blob/master/cookbook/img/cookbook-viz-overview.png
+[wm_cookbook_viz_overview]:  https://github.com/wirepas/tutorials/blob/master/cookbook/img/cookbook-viz-overview.png
