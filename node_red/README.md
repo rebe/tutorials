@@ -32,7 +32,7 @@ Open your browser and navigate to
 
 You will be greeted by the example flow
 
-![alt text][node_red_main_view]
+![Main view][node_red_main_view]
 
 ## Configure your MQTT settings
 
@@ -42,11 +42,11 @@ edit the server entry (click on the pencil symbol).
 In the next dialog, edit *Server* and update it with the Wirepas' hosted
 instance address or your own compliant MQTT broker.
 
-![alt text][node_red_dialog_mqtt]
+![MQTT's block settings][node_red_dialog_mqtt]
 
 On the *Security* tab, please set the username and password accordingly.
 
-![alt text][node_red_dialog_mqtt_security]
+![MQTT's security settings][node_red_dialog_mqtt_security]
 
 Once connected to the MQTT broker, WM-data will flow through Node-RED and
 you will be able to customize the flow to your liking.
@@ -55,8 +55,8 @@ In the example flow, the payload is converted to JSON and if it matches
 endpoints 238:238, it will decode the payload header sent by the
 Wirepas Mesh positioning application.
 
-[node_red_main_view]:  https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-flow.png "Main view"
+[node_red_main_view]:  https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-flow.png 
 
-[node_red_dialog_mqtt]: https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-dialog-mqtt.png "MQTT's block settings"
+[node_red_dialog_mqtt]: https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-dialog-mqtt.png 
 
-[node_red_dialog_mqtt_security]: https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-dialog-security.png "MQTT's security settings"
+[node_red_dialog_mqtt_security]: https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-dialog-security.png 
