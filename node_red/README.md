@@ -32,7 +32,7 @@ Open your browser and navigate to
 
 You will be greeted by the example flow
 
-[[https://github.com/wirepas/tutorials/tree/master/node_red/img/node-red-flow.png|alt=node-red-wm-flow]]
+[[https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-flow.png|alt=node-red-wm-flow]]
 
 
 ## Configure your MQTT settings
@@ -43,11 +43,11 @@ edit the server entry (click on the pencil symbol).
 In the next dialog, edit *Server* and update it with the Wirepas' hosted
 instance address or your own compliant MQTT broker.
 
-[[https://github.com/wirepas/tutorials/tree/master/node_red/img/node-red-dialog-mqtt.png|alt=node-red-dialog-mqtt]]
+[[https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-dialog-mqtt.png|alt=node-red-dialog-mqtt]]
 
 On the *Security* tab, please set the username and password accordingly.
 
-[[https://github.com/wirepas/tutorials/tree/master/node_red/img/node-red-dialog-security.png|alt=node-red-dialog-security]]
+[[https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-dialog-security.pngalt=node-red-dialog-security]]
 
 Once connected to the MQTT broker, WM-data will flow through Node-RED and
 you will be able to customize the flow to your liking.
