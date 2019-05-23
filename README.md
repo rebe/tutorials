@@ -1,5 +1,7 @@
 # Tutorials
 
+[![Build Status](https://travis-ci.com/wirepas/tutorials.svg?branch=master)](https://travis-ci.com/wirepas/tutorials)
+
 This repository contains several examples on how to run several backend
 services which are useful to interact with Wirepas Mesh technology
 at a backend level.
@@ -38,6 +40,13 @@ install docker-compose using the following command
     pip install docker-compose
 ```
 
+## Docker builds
+
+You can retrieve public builds from [our registry in Docker hub][dockerhub].
+
+
 ## License
 
 Licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
+
+[dockerhub]: https://hub.docker.com/u/wirepas
