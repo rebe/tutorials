@@ -5,8 +5,8 @@ services:
 
   # this is not recommended for production - you should have more es nodes
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
     container_name: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
 
     environment:
       - bootstrap.memory_lock=true
@@ -34,6 +34,7 @@ services:
       - elastic_network
 
   kibana:
+    container_name: kibana
     image: docker.elastic.co/kibana/kibana:7.1.0
     volumes:
       - ./kibana.yml:/usr/share/kibana/config/kibana.yml
@@ -57,4 +58,3 @@ networks:
   elastic_network:
   fluentd_stream_processing:
     external: true
-

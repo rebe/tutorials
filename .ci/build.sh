@@ -3,3 +3,4 @@
 set -e
 
 ./cookbook/visualizations_helper.sh
+./.ci/build-all.sh
