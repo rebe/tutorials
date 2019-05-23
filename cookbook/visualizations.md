@@ -218,7 +218,7 @@ Add the location of fluentd along with the tag and record you want to identify y
 ```yaml
    fluentd_hostname: <fluentd hostname or ip, eg, localhost>
    fluentd_record: ruuvi
-   fluentd_tag: evk
+   fluentd_tag: app
 ```
 
 If you have installed the Python package locally, start the [*mqtt_viewer.py*](https://github.com/wirepas/backend-client/blob/master/examples/mqtt_viewer.py) example with:

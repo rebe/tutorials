@@ -65,7 +65,7 @@ mqtt_force_unsecure: true
 
 fluentd_hostname: localhost
 fluentd_record: ruuvi
-fluentd_tag: evk
+fluentd_tag: app
 
 HEREDOC
 
