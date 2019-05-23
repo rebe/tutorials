@@ -10,6 +10,7 @@ as well as the APIs used between components.
 
 ![cookbook visualization overview][wm_cookbook_viz_overview]
 
+**Figure 1 -** Overview of the final service setup after going through this guide.
 
 The instructions assume that you will be making the installation on a Linux
 host with all the pre-requisites met. The 3rd party services are setup
@@ -120,7 +121,9 @@ Where you will find in the [instructions on how to setup Node-RED on top of Dock
 
 As packets arrive, the flow will decode the protocol buffer and expose common metrics. You can customize the flow further in order to decode any network payload or route data towards a service of your choice.
 
-<!-- Illustrate -->
+![Main view][node_red_main_view]
+
+**Figure 2 -** Overview of the node red that will be available to you.
 
 ## Using Kibana
 
@@ -135,9 +138,7 @@ In this example we will be using:
 -   [Elasticsearch and Kibana](https://www.elastic.co/)
 
 In this example, we use a Python tool to decode incoming MQTT traffic and publish the decoded packets to fluentd, which inserts those in elasticsearch.
-Kibana will serve as a visualization engine where you can create your own dashboard and search the incoming data.
-
-<!-- Illustrate architecture -->
+Kibana will serve as a visualization engine where you can create your own dashboard and search the incoming data (see Figure 1).
 
 ### Setting up fluentd, elasticsearch and kibana
 
@@ -238,21 +239,37 @@ The example decodes incoming messages according to the defined
 
 Open your browser and navigate once again to Kibana's user interface in [http://localhost:5601](http://localhost:5601).
 
-Once kibana finishes loading, navigate to Management on the top left menu and click on *Saved Objects > Import*. Click import on the right side menu
-and import the json file located at
+Once kibana finishes loading, navigate to Management on the top left menu and click on *Saved Objects > Import*.
+
+![Kibana import dialog][kibana_import]
+
+**Figure 3 -** Kibana management and import object section.
+
+Click import on the right side menu and import the json file located at
 
 ```bash
    ${HOME}/wirepas/tutorials/elastic_search/dashboards/evk_ruuvi.json
 ```
 
-Once the import is done, navigate to Dashboard on Kibana's left menu and click on *\[WM\] Ruuvi Evk*. The dashboard will display values regarding
-your device sensors as well as other network metrics.
+Once the import is done, navigate to Dashboard on Kibana's left menu and click on *\[WM\] Ruuvi Evk*.
+The dashboard will display values regarding your device sensors as well as other network metrics.
+
+![Kibana dashboard][kibana_dashboard]
+
+**Figure 4 -** Dashboard for visualizing the Ruuvi EVK data
+
 
 You can customize Kibana according to your needs and use the backend client to develop your own test cases evaluation scripts.
 
 An evaluation license will allow you to develop and build custom applications for your devices.
 
-<!-- Add screenshot -->
 
 <!-- Figures -->
 [wm_cookbook_viz_overview]:  https://github.com/wirepas/tutorials/blob/master/cookbook/img/cookbook-viz-overview.png
+
+
+[kibana_dashboard]:  https://github.com/wirepas/tutorials/blob/master/elastic_search/img/kibana-dashboard.png
+[kibana_discover]:  https://github.com/wirepas/tutorials/blob/master/elastic_search/img/kibana-discover.png
+[kibana_import]:   https://github.com/wirepas/tutorials/blob/master/elastic_search/img/kibana-import.png
+
+[node_red_main_view]:  https://github.com/wirepas/tutorials/blob/master/node_red/img/node-red-flow.png
