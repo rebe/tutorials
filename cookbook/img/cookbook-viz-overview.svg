@@ -1,0 +1,3749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="267.56061mm"
+   height="81.257607mm"
+   viewBox="0 0 267.56061 81.257607"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
+   sodipodi:docname="cookbook-viz-overview.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       gradientTransform="rotate(-90,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-351">
+      <stop
+         id="stop4593"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0" />
+      <stop
+         id="stop4595"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.74" />
+      <stop
+         id="stop4597"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.83" />
+      <stop
+         id="stop4599"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="1" />
+    </linearGradient>
+    <pattern
+       patternContentUnits="objectBoundingBox"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="grad11-356">
+      <path
+         id="path4602"
+         style="fill:url(#grad0-357)"
+         d="M 0 1 L 0 0 L 1 0 z" />
+      <path
+         id="path4604"
+         style="fill:url(#grad0-358)"
+         d="M 0 1 L 1 1 L 1 0 z" />
+    </pattern>
+    <linearGradient
+       gradientTransform="rotate(180,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-357">
+      <stop
+         id="stop4607"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0" />
+      <stop
+         id="stop4609"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.74" />
+      <stop
+         id="stop4611"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.83" />
+      <stop
+         id="stop4613"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(90,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-358">
+      <stop
+         id="stop4616"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0" />
+      <stop
+         id="stop4618"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.74" />
+      <stop
+         id="stop4620"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.83" />
+      <stop
+         id="stop4622"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="1" />
+    </linearGradient>
+    <pattern
+       patternContentUnits="objectBoundingBox"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="grad12-363">
+      <path
+         id="path4625"
+         style="fill:url(#grad0-358)"
+         d="M 0 0 L 0 1 L 1 1 z" />
+      <path
+         id="path4627"
+         style="fill:url(#grad0-364)"
+         d="M 0 0 L 1 0 L 1 1 z" />
+    </pattern>
+    <linearGradient
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-364">
+      <stop
+         id="stop4630"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0" />
+      <stop
+         id="stop4632"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.74" />
+      <stop
+         id="stop4634"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="0.83" />
+      <stop
+         id="stop4636"
+         stop-opacity="1"
+         stop-color="#3f5765"
+         offset="1" />
+    </linearGradient>
+    <pattern
+       patternContentUnits="objectBoundingBox"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="grad8-383">
+      <path
+         id="path4639"
+         style="fill:url(#grad0-351)"
+         d="M 0 0 L 1 0 L 1 1 z" />
+      <path
+         id="path4641"
+         style="fill:url(#grad0-357)"
+         d="M 0 0 L 0 1 L 1 1 z" />
+    </pattern>
+    <pattern
+       patternContentUnits="objectBoundingBox"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="grad10-387">
+      <path
+         id="path4644"
+         style="fill:url(#grad0-357)"
+         d="M 0.5 0.5 L 0 0 L 0 1 z" />
+      <path
+         id="path4646"
+         style="fill:url(#grad0-364)"
+         d="M 0.5 0.5 L 1 0 L 1 1 z" />
+      <path
+         id="path4648"
+         style="fill:url(#grad0-351)"
+         d="M 0.5 0.5 L 0 0 L 1 0 z" />
+      <path
+         id="path4650"
+         style="fill:url(#grad0-358)"
+         d="M 0.5 0.5 L 0 1 L 1 1 z" />
+    </pattern>
+    <pattern
+       patternContentUnits="objectBoundingBox"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="grad8-733">
+      <path
+         id="path4653"
+         style="fill:url(#grad0-734)"
+         d="M 0 0 L 1 0 L 1 1 z" />
+      <path
+         id="path4655"
+         style="fill:url(#grad0-735)"
+         d="M 0 0 L 0 1 L 1 1 z" />
+    </pattern>
+    <linearGradient
+       gradientTransform="rotate(-90,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-734">
+      <stop
+         id="stop4658"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4660"
+         stop-opacity="1"
+         stop-color="#c0c0c0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(180,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-735">
+      <stop
+         id="stop4663"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4665"
+         stop-opacity="1"
+         stop-color="#c0c0c0"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       r="1.4"
+       cy="1"
+       cx="1"
+       id="grad1-743">
+      <stop
+         id="stop4668"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4670"
+         stop-opacity="1"
+         stop-color="#9a9a9a"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       r="1.4"
+       cy="1"
+       cx="1"
+       id="grad1-747">
+      <stop
+         id="stop4673"
+         stop-opacity="1"
+         stop-color="#9a9a9a"
+         offset="0" />
+      <stop
+         id="stop4675"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       r="1.4"
+       cy="1"
+       cx="1"
+       id="grad1-754">
+      <stop
+         id="stop4678"
+         stop-opacity="1"
+         stop-color="#00ff00"
+         offset="0" />
+      <stop
+         id="stop4680"
+         stop-opacity="1"
+         stop-color="#ffff00"
+         offset="1" />
+    </radialGradient>
+    <pattern
+       patternContentUnits="objectBoundingBox"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="grad10-760">
+      <path
+         id="path4683"
+         style="fill:url(#grad0-735)"
+         d="M 0.5 0.5 L 0 0 L 0 1 z" />
+      <path
+         id="path4685"
+         style="fill:url(#grad0-761)"
+         d="M 0.5 0.5 L 1 0 L 1 1 z" />
+      <path
+         id="path4687"
+         style="fill:url(#grad0-734)"
+         d="M 0.5 0.5 L 0 0 L 1 0 z" />
+      <path
+         id="path4689"
+         style="fill:url(#grad0-762)"
+         d="M 0.5 0.5 L 0 1 L 1 1 z" />
+    </pattern>
+    <linearGradient
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-761">
+      <stop
+         id="stop4692"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4694"
+         stop-opacity="1"
+         stop-color="#c0c0c0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(90,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-762">
+      <stop
+         id="stop4697"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4699"
+         stop-opacity="1"
+         stop-color="#c0c0c0"
+         offset="1" />
+    </linearGradient>
+    <pattern
+       patternContentUnits="objectBoundingBox"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="grad10-769">
+      <path
+         id="path4702"
+         style="fill:url(#grad0-770)"
+         d="M 0.5 0.5 L 0 0 L 0 1 z" />
+      <path
+         id="path4704"
+         style="fill:url(#grad0-771)"
+         d="M 0.5 0.5 L 1 0 L 1 1 z" />
+      <path
+         id="path4706"
+         style="fill:url(#grad0-772)"
+         d="M 0.5 0.5 L 0 0 L 1 0 z" />
+      <path
+         id="path4708"
+         style="fill:url(#grad0-773)"
+         d="M 0.5 0.5 L 0 1 L 1 1 z" />
+    </pattern>
+    <linearGradient
+       gradientTransform="rotate(180,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-770">
+      <stop
+         id="stop4711"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4713"
+         stop-opacity="1"
+         stop-color="#9a9a9a"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-771">
+      <stop
+         id="stop4716"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4718"
+         stop-opacity="1"
+         stop-color="#9a9a9a"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(-90,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-772">
+      <stop
+         id="stop4721"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4723"
+         stop-opacity="1"
+         stop-color="#9a9a9a"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(90,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-773">
+      <stop
+         id="stop4726"
+         stop-opacity="1"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop4728"
+         stop-opacity="1"
+         stop-color="#9a9a9a"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-789">
+      <stop
+         id="stop4731"
+         stop-opacity="1"
+         stop-color="#666666"
+         offset="0" />
+      <stop
+         id="stop4733"
+         stop-opacity="1"
+         stop-color="#c0c0c0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(180,0.5,0.5)"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="grad0-793">
+      <stop
+         id="stop4736"
+         stop-opacity="1"
+         stop-color="#666666"
+         offset="0" />
+      <stop
+         id="stop4738"
+         stop-opacity="1"
+         stop-color="#c0c0c0"
+         offset="1" />
+    </linearGradient>
+    <g
+       id="lend5">
+      <path
+         id="path4742"
+         style="stroke:none"
+         d="M 2,1 0,0 1.98117,-0.993387 C 1.67173,-0.364515 1.67301,0.372641 1.98465,1.00043"
+         inkscape:connector-curvature="0" />
+    </g>
+    <marker
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="7.1500001"
+       v:setback="7.15"
+       v:arrowSize="2"
+       v:arrowType="5"
+       class="st19"
+       id="mrkr5-327"
+       style="overflow:visible;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.22935779;stroke-opacity:1">
+      <use
+         id="use4745"
+         transform="scale(4.36)"
+         xlink:href="#lend5"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </marker>
+    <marker
+       overflow="visible"
+       markerUnits="strokeWidth"
+       orient="auto"
+       refX="-7.6300001"
+       v:setback="7.63"
+       v:arrowSize="2"
+       v:arrowType="5"
+       class="st19"
+       id="mrkr5-329"
+       style="overflow:visible;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.22935779;stroke-opacity:1">
+      <use
+         id="use4748"
+         transform="scale(-4.36)"
+         xlink:href="#lend5"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="644.17692"
+     inkscape:cy="295.02556"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1877"
+     inkscape:window-height="1043"
+     inkscape:window-x="43"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-253.57754,-112.95124)">
+    <g
+       id="g2828"
+       inkscape:export-filename="/home/silva/Documents/workspace/github/tutorials/cookbook/img/cookbook-viz-overview.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="shape742-1004-2-0-6-1"
+         v:mID="742"
+         v:groupContext="shape"
+         transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,453.15373,340.73769)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6818-7-2-4-2">Sheet.742</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 26.53"
+           class="st13"
+           id="path6820-3-1-9-3" />
+      </g>
+      <g
+         id="shape742-1004-2-0-6"
+         v:mID="742"
+         v:groupContext="shape"
+         transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,452.83034,362.94783)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6818-7-2-4">Sheet.742</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 26.53"
+           class="st13"
+           id="path6820-3-1-9" />
+      </g>
+      <path
+         id="path4793"
+         class="st6"
+         d="m 271.70181,117.33954 c 0.25753,0 0.47272,0.21873 0.47272,0.48684 v 2.14841 c 0.0141,0.64911 0.0282,1.37936 0.0529,1.74272 0.10936,0.11994 0.17639,0.28222 0.17639,0.4445 0,0.39158 -0.31044,0.71614 -0.68792,0.71614 -0.36336,0 -0.6738,-0.32456 -0.6738,-0.71614 0,-0.16228 0.067,-0.32456 0.17286,-0.4445 0,-0.53975 0,-1.09361 0.0141,-1.63336 v -2.25777 c 0,-0.26811 0.2152,-0.48684 0.47272,-0.48684 z m 0.0529,-1.79563 c -0.57855,0 -1.05128,0.48683 -1.05128,1.09361 v 4.44499 c -0.1905,0.2152 -0.29633,0.51506 -0.29633,0.83608 0,0.7867 0.60678,1.4217 1.34761,1.4217 0.75847,0 1.36525,-0.635 1.36525,-1.4217 0,-0.32102 -0.10936,-0.62088 -0.31045,-0.83608 v -4.44499 c 0,-0.60678 -0.45861,-1.09361 -1.0548,-1.09361 z m 0,-0.59267 c 0.76905,0 1.38994,0.64558 1.38994,1.44286 v 4.31094 c 0.28575,0.31044 0.44803,0.74083 0.44803,1.20297 0,1.05128 -0.81139,1.905 -1.83797,1.905 -1.01247,0 -1.83444,-0.85372 -1.83444,-1.905 0,-0.46214 0.17639,-0.89253 0.45861,-1.20297 v -4.31094 c 0,-0.79728 0.62089,-1.44286 1.37583,-1.44286 z"
+         inkscape:connector-curvature="0"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:#3f5765;fill-rule:evenodd;stroke:none;stroke-width:0.26458293;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+      <g
+         id="g12076"
+         transform="matrix(0.35277725,0,0,0.35277725,241.28277,49.415969)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <g
+           transform="rotate(-89.8187,-114.47445,357.01557)"
+           v:groupContext="shape"
+           v:mID="81"
+           id="shape81-166">
+          <title
+             id="title5178">Sheet.81</title>
+          <path
+             id="path5180"
+             class="st13"
+             d="M 0,595.28 H 3.25"
+             inkscape:connector-curvature="0"
+             style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt" />
+        </g>
+        <g
+           transform="translate(104.882,-354.6553)"
+           v:groupContext="shape"
+           v:mID="82"
+           id="shape82-169">
+          <title
+             id="title5183">Ellipse</title>
+          <v:userDefs>
+            <v:ud
+               v:val="VT0(15):26"
+               v:nameU="visVersion" />
+          </v:userDefs>
+          <path
+             id="path5185"
+             class="st4"
+             d="M 0,590 A 19.275,5.2751921 0 0 1 38.55,590 19.275,5.2751921 0 0 1 0,590 Z"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="rotate(-90.0521,-117.26162,353.7509)"
+           v:groupContext="shape"
+           v:mID="83"
+           id="shape83-171">
+          <title
+             id="title5188">Sheet.83</title>
+          <path
+             id="path5190"
+             class="st13"
+             d="M 0,595.28 H 11.32"
+             inkscape:connector-curvature="0"
+             style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt" />
+        </g>
+      </g>
+      <path
+         id="path5502"
+         class="st4"
+         d="m 357.23254,145.54177 h 23.18452 a 2.8977088,2.8977088 0 0 0 2.8963,-2.89983 v -4.49791 a 2.8977088,2.8977088 0 0 0 -2.8963,-2.89983 h -23.18452 a 2.8977088,2.8977088 0 0 0 -2.8963,2.89983 v 4.49791 a 2.8977088,2.8977088 0 0 0 2.8963,2.89983 z"
+         inkscape:connector-curvature="0"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.08466654;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+      <g
+         id="shape147-321"
+         v:mID="147"
+         v:groupContext="shape"
+         transform="matrix(0.20971327,0,0,0.35277725,300.43928,-69.606843)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title5527">Sheet.147</title>
+        <path
+           style="stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr5-327);marker-end:url(#mrkr5-329)"
+           inkscape:connector-curvature="0"
+           d="M 5.36,595.28 H 5.72 66.2"
+           class="st18"
+           id="path5529" />
+      </g>
+      <g
+         id="shape734-982"
+         v:mID="734"
+         v:groupContext="shape"
+         transform="matrix(0,0.35277725,-0.35277725,0,558.35579,135.24526)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6767">Ellipse.734</title>
+        <v:userDefs>
+          <v:ud
+             v:nameU="visVersion"
+             v:val="VT0(15):26" />
+        </v:userDefs>
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="M 0,590 A 14.5912,5.27511 0 1 1 29.18,590 14.5912,5.27511 0 1 1 0,590 Z"
+           class="st4"
+           id="path6769" />
+      </g>
+      <g
+         id="shape735-984"
+         v:mID="735"
+         v:groupContext="shape"
+         transform="matrix(0.35277725,0,0,0.35277725,350.21721,-69.606843)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6772">Sheet.735</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 11.68"
+           class="st13"
+           id="path6774" />
+      </g>
+      <g
+         id="shape736-987"
+         v:mID="736"
+         v:groupContext="shape"
+         transform="matrix(-0.35277725,0,0,-0.35277725,348.35596,350.39246)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6777">Sheet.736</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 4.47"
+           class="st13"
+           id="path6779" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458335;stroke-linecap:square;stroke-miterlimit:3"
+         x="274.46759"
+         y="118.0592"
+         id="text11959"><tspan
+           sodipodi:role="line"
+           id="tspan11975"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;line-height:0px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458335"
+           x="274.46759"
+           y="118.0592">Wirepas Ruuvi </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458335;stroke-linecap:square;stroke-miterlimit:3"
+         x="275.69583"
+         y="122.63958"
+         id="text11983"><tspan
+           sodipodi:role="line"
+           id="tspan11981"
+           x="275.69583"
+           y="122.63958"
+           style="font-size:3.52777791px;stroke-width:0.26458335">Application</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.00931954px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15069897;stroke-linecap:square;stroke-miterlimit:3"
+         x="255.42645"
+         y="131.20956"
+         id="text12039"><tspan
+           sodipodi:role="line"
+           id="tspan12037"
+           x="255.42645"
+           y="131.20956"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069897">Wirepas </tspan><tspan
+           sodipodi:role="line"
+           x="255.42645"
+           y="133.72121"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069897"
+           id="tspan12041">Single/Dual MCU API</tspan></text>
+      <g
+         id="g12082"
+         transform="matrix(0.35277725,0,0,0.35277725,241.28277,48.846928)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="m 89.314,273.983 h 69.67 a 8.70832,8.70832 0 0 0 8.7,-8.71 v -11.77 a 8.70832,8.70832 0 0 0 -8.7,-8.71 h -69.67 a 8.70832,8.70832 0 0 0 -8.71,8.71 v 11.77 a 8.70832,8.70832 0 0 0 8.71,8.71 z"
+           class="st4"
+           id="path5171" />
+        <text
+           id="text12063"
+           y="256.77548"
+           x="89.544342"
+           style="font-style:normal;font-weight:normal;font-size:10.00001431px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000113"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.75000113"
+             y="256.77548"
+             x="89.544342"
+             id="tspan12061"
+             sodipodi:role="line">Wirepas Mesh</tspan><tspan
+             id="tspan12065"
+             style="stroke-width:0.75000113"
+             y="269.27551"
+             x="89.544342"
+             sodipodi:role="line">Stack</tspan></text>
+      </g>
+      <g
+         transform="matrix(0.35277725,0,0,0.35277725,287.35176,48.846928)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+         id="g12082-7">
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="m 89.314,273.983 h 69.67 a 8.70832,8.70832 0 0 0 8.7,-8.71 v -11.77 a 8.70832,8.70832 0 0 0 -8.7,-8.71 h -69.67 a 8.70832,8.70832 0 0 0 -8.71,8.71 v 11.77 a 8.70832,8.70832 0 0 0 8.71,8.71 z"
+           class="st4"
+           id="path5171-4" />
+        <text
+           id="text12063-1"
+           y="256.77548"
+           x="89.544342"
+           style="font-style:normal;font-weight:normal;font-size:10.00001431px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000113"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.75000113"
+             y="256.77548"
+             x="89.544342"
+             id="tspan12061-9"
+             sodipodi:role="line">Wirepas Mesh</tspan><tspan
+             id="tspan12065-0"
+             style="stroke-width:0.75000113"
+             y="269.27551"
+             x="89.544342"
+             sodipodi:role="line">Stack</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.00931954px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15069896;stroke-linecap:square;stroke-miterlimit:3"
+         x="303.63638"
+         y="144.00833"
+         id="text12039-7"><tspan
+           sodipodi:role="line"
+           id="tspan12037-1"
+           x="303.63638"
+           y="144.00833"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069896">Wirepas </tspan><tspan
+           sodipodi:role="line"
+           x="303.63638"
+           y="146.51997"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069896"
+           id="tspan12132">Mesh</tspan><tspan
+           sodipodi:role="line"
+           x="303.63638"
+           y="149.03163"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069896"
+           id="tspan12041-3">Network</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.00931954px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15069896;stroke-linecap:square;stroke-miterlimit:3"
+         x="343.95398"
+         y="129.60251"
+         id="text12039-8"><tspan
+           sodipodi:role="line"
+           id="tspan12037-0"
+           x="343.95398"
+           y="129.60251"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069896">Wirepas </tspan><tspan
+           sodipodi:role="line"
+           x="343.95398"
+           y="132.11415"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069896"
+           id="tspan12041-9">Dual MCU API</tspan></text>
+      <g
+         id="shape733-980"
+         v:mID="733"
+         v:groupContext="shape"
+         transform="matrix(0,0.35277725,-0.35277725,0,598.67787,135.24526)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6762">Ellipse.733</title>
+        <v:userDefs>
+          <v:ud
+             v:nameU="visVersion"
+             v:val="VT0(15):26" />
+        </v:userDefs>
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="M 0,590 A 14.5912,5.27511 0 0 1 29.18,590 14.5912,5.27511 0 0 1 0,590 Z"
+           class="st4"
+           id="path6764" />
+      </g>
+      <g
+         id="shape741-997"
+         v:mID="741"
+         v:groupContext="shape"
+         transform="matrix(-0.35277725,0,0,-0.35277725,388.67769,350.39246)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6802">Sheet.741</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 15.2"
+           class="st13"
+           id="path6804" />
+      </g>
+      <g
+         id="shape742-1004"
+         v:mID="742"
+         v:groupContext="shape"
+         transform="matrix(-0.35277725,0,0,-0.35277725,399.89954,350.39246)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6818">Sheet.742</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 26.53"
+           class="st13"
+           id="path6820" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.00931954px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15069894;stroke-linecap:square;stroke-miterlimit:3"
+         x="384.5896"
+         y="129.51662"
+         id="text12039-8-7"><tspan
+           sodipodi:role="line"
+           id="tspan12037-0-9"
+           x="384.5896"
+           y="129.51662"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069894">Wirepas </tspan><tspan
+           sodipodi:role="line"
+           x="384.5896"
+           y="132.02826"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069894"
+           id="tspan12041-9-9">Backend API </tspan></text>
+      <g
+         transform="matrix(0,-0.6331916,0.6558613,0,384.41597,478.41768)"
+         id="g15698-0-8">
+        <g
+           style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+           transform="matrix(-0.00299082,0.35276457,-0.35276457,-0.00299082,698.40138,113.3321)"
+           v:groupContext="shape"
+           v:mID="733"
+           id="shape733-980-6-7-7-6-7">
+          <title
+             id="title6762-5-2-6-9-5">Ellipse.733</title>
+          <v:userDefs>
+            <v:ud
+               v:val="VT0(15):26"
+               v:nameU="visVersion" />
+          </v:userDefs>
+          <path
+             id="path6764-7-2-9-2-2"
+             class="st4"
+             d="M 0,590 A 14.5912,5.27511 0 0 1 29.18,590 14.5912,5.27511 0 0 1 0,590 Z"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+        </g>
+        <g
+           style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+           transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,486.58475,326.69119)"
+           v:groupContext="shape"
+           v:mID="741"
+           id="shape741-997-8-1-1-1-4">
+          <title
+             id="title6802-5-6-1-7-5">Sheet.741</title>
+          <path
+             id="path6804-9-3-9-7-0"
+             class="st13"
+             d="M 0,595.28 H 15.2"
+             inkscape:connector-curvature="0"
+             style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt" />
+        </g>
+        <g
+           style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+           transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,497.8062,326.78634)"
+           v:groupContext="shape"
+           v:mID="742"
+           id="shape742-1004-2-0-0-9-5">
+          <title
+             id="title6818-7-2-89-7-7">Sheet.742</title>
+          <path
+             id="path6820-3-1-8-6-3"
+             class="st13"
+             d="M 0,595.28 H 26.53"
+             inkscape:connector-curvature="0"
+             style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt" />
+        </g>
+      </g>
+      <g
+         transform="translate(-4.5490386,64.113989)"
+         id="g15698-0-4">
+        <g
+           style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+           transform="matrix(-0.00299082,0.35276457,-0.35276457,-0.00299082,698.40138,113.3321)"
+           v:groupContext="shape"
+           v:mID="733"
+           id="shape733-980-6-7-7-6-4">
+          <title
+             id="title6762-5-2-6-9-9">Ellipse.733</title>
+          <v:userDefs>
+            <v:ud
+               v:val="VT0(15):26"
+               v:nameU="visVersion" />
+          </v:userDefs>
+          <path
+             id="path6764-7-2-9-2-9"
+             class="st4"
+             d="M 0,590 A 14.5912,5.27511 0 0 1 29.18,590 14.5912,5.27511 0 0 1 0,590 Z"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round" />
+        </g>
+        <g
+           style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+           transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,486.58475,326.69119)"
+           v:groupContext="shape"
+           v:mID="741"
+           id="shape741-997-8-1-1-1-3">
+          <title
+             id="title6802-5-6-1-7-8">Sheet.741</title>
+          <path
+             id="path6804-9-3-9-7-3"
+             class="st13"
+             d="M 0,595.28 H 15.2"
+             inkscape:connector-curvature="0"
+             style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt" />
+        </g>
+        <g
+           style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+           transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,497.8062,326.78634)"
+           v:groupContext="shape"
+           v:mID="742"
+           id="shape742-1004-2-0-0-9-2">
+          <title
+             id="title6818-7-2-89-7-9">Sheet.742</title>
+          <path
+             id="path6820-3-1-8-6-5"
+             class="st13"
+             d="M 0,595.28 H 26.53"
+             inkscape:connector-curvature="0"
+             style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt" />
+        </g>
+      </g>
+      <path
+         id="path5513-1"
+         class="st4"
+         d="m 451.0998,189.22443 h 24.57799 a 3.0720972,3.0720972 0 0 0 3.06916,-3.07269 v -10.6468 a 3.0720972,3.0720972 0 0 0 -3.06916,-3.07269 H 451.0998 a 3.0720972,3.0720972 0 0 0 -3.07269,3.07269 v 10.6468 a 3.0720972,3.0720972 0 0 0 3.07269,3.07269 z"
+         inkscape:connector-curvature="0"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.08466655;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+      <g
+         id="shape733-980-6-7"
+         v:mID="733"
+         v:groupContext="shape"
+         transform="matrix(-0.00299082,0.35276457,-0.35276457,-0.00299082,644.20896,137.00897)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6762-5-2">Ellipse.733</title>
+        <v:userDefs>
+          <v:ud
+             v:nameU="visVersion"
+             v:val="VT0(15):26" />
+        </v:userDefs>
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="M 0,590 A 14.5912,5.27511 0 0 1 29.18,590 14.5912,5.27511 0 0 1 0,590 Z"
+           class="st4"
+           id="path6764-7-2" />
+      </g>
+      <g
+         id="shape741-997-8-1"
+         v:mID="741"
+         v:groupContext="shape"
+         transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,432.39232,350.40764)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6802-5-6">Sheet.741</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 15.2"
+           class="st13"
+           id="path6804-9-3" />
+      </g>
+      <g
+         id="shape742-1004-2-0"
+         v:mID="742"
+         v:groupContext="shape"
+         transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,443.61377,350.42458)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6818-7-2">Sheet.742</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 26.53"
+           class="st13"
+           id="path6820-3-1" />
+      </g>
+      <text
+         transform="rotate(0.485756)"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.00931954px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15069894;stroke-linecap:square;stroke-miterlimit:3"
+         x="432.98593"
+         y="126.71854"
+         id="text12039-8-7-6-5"><tspan
+           sodipodi:role="line"
+           id="tspan12037-0-9-4-6"
+           x="432.98593"
+           y="126.71854"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069894">Wirepas </tspan><tspan
+           sodipodi:role="line"
+           x="432.98593"
+           y="129.23018"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069894"
+           id="tspan12041-9-9-7-5">Backend API </tspan></text>
+      <g
+         id="shape742-1004-2-0-3"
+         v:mID="742"
+         v:groupContext="shape"
+         transform="matrix(-0.00286224,1.5994213,-0.33759729,-0.01356028,646.57335,129.39524)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-width:1.98425496;stroke-linecap:square;stroke-miterlimit:3;stroke-dasharray:none">
+        <title
+           id="title6818-7-2-8">Sheet.742</title>
+        <path
+           style="stroke:#127575;stroke-width:1.98425496;stroke-linecap:butt;stroke-miterlimit:3;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 26.53"
+           class="st13"
+           id="path6820-3-1-2" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52777743px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458335;stroke-linecap:square;stroke-miterlimit:3"
+         x="451.66425"
+         y="177.73378"
+         id="text12281-3-1-1"><tspan
+           sodipodi:role="line"
+           x="451.66425"
+           y="177.73378"
+           style="stroke-width:0.26458335"
+           id="tspan12283-7-2-7">Fluentd &amp;</tspan><tspan
+           id="tspan15937"
+           sodipodi:role="line"
+           x="451.66425"
+           y="182.14351"
+           style="stroke-width:0.26458335">Elasticsearch </tspan><tspan
+           id="tspan15939"
+           sodipodi:role="line"
+           x="451.66425"
+           y="186.55322"
+           style="stroke-width:0.26458335">stack</tspan></text>
+      <g
+         transform="translate(9.5099212,-36.414865)"
+         id="g13249">
+        <path
+           style="font-size:12px;color-interpolation-filters:sRGB;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.08968876;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3"
+           inkscape:connector-curvature="0"
+           d="m 441.59099,198.75189 h 24.57577 a 3.0718198,3.4476766 0 0 0 3.06888,-3.44833 v -11.94845 a 3.0718198,3.4476766 0 0 0 -3.06888,-3.44834 h -24.57577 a 3.0718198,3.4476766 0 0 0 -3.07241,3.44834 v 11.94845 a 3.0718198,3.4476766 0 0 0 3.07241,3.44833 z"
+           class="st4"
+           id="path5513-1-6" />
+        <g
+           id="g13178"
+           transform="translate(-4.6130181)">
+          <text
+             id="text13158"
+             y="183.99844"
+             x="445.6452"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               style="stroke-width:0.26458332"
+               y="183.99844"
+               x="445.6452"
+               id="tspan13156"
+               sodipodi:role="line">Wirepas</tspan><tspan
+               id="tspan13162"
+               style="stroke-width:0.26458332"
+               y="188.40817"
+               x="445.6452"
+               sodipodi:role="line">Backend client</tspan></text>
+          <text
+             id="text13168"
+             y="192.41743"
+             x="445.4581"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.26458332"
+               y="192.41743"
+               x="445.4581"
+               id="tspan13166"
+               sodipodi:role="line">message parser</tspan><tspan
+               id="tspan13170"
+               style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.26458332"
+               y="196.82716"
+               x="445.4581"
+               sodipodi:role="line">test case executor</tspan></text>
+        </g>
+      </g>
+      <text
+         transform="rotate(0.48575604)"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.00931954px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15069894;stroke-linecap:square;stroke-miterlimit:3"
+         x="466.42239"
+         y="162.42975"
+         id="text12039-8-7-6-5-8"><tspan
+           id="tspan15846"
+           sodipodi:role="line"
+           x="466.42239"
+           y="162.42975"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069894">Fluentd</tspan><tspan
+           sodipodi:role="line"
+           x="466.42239"
+           y="164.94139"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069894"
+           id="tspan12041-9-9-7-5-3">Logging API</tspan></text>
+      <path
+         id="path5502-3"
+         class="st4"
+         d="m 402.7156,145.49412 h 23.18452 a 2.8977087,2.8977087 0 0 0 2.8963,-2.89983 v -4.49791 a 2.8977087,2.8977087 0 0 0 -2.8963,-2.89983 H 402.7156 a 2.8977087,2.8977087 0 0 0 -2.8963,2.89983 v 4.49791 a 2.8977087,2.8977087 0 0 0 2.8963,2.89983 z"
+         inkscape:connector-curvature="0"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.08466654;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+      <text
+         id="text19624"
+         y="139.16136"
+         x="361.02252"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="139.16136"
+           x="361.02252"
+           id="tspan19622"
+           sodipodi:role="line">Wirepas </tspan><tspan
+           id="tspan19626"
+           style="stroke-width:0.26458332"
+           y="143.57109"
+           x="361.02252"
+           sodipodi:role="line">Gateway</tspan></text>
+      <text
+         id="text19624-9"
+         y="139.42464"
+         x="408.3866"
+         style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan19626-4"
+           style="stroke-width:0.26458332"
+           y="139.42464"
+           x="408.3866"
+           sodipodi:role="line">MQTT</tspan><tspan
+           id="tspan19651"
+           style="stroke-width:0.26458332"
+           y="143.83437"
+           x="408.3866"
+           sodipodi:role="line">Broker</tspan></text>
+      <g
+         transform="translate(0,-9.7895833)"
+         id="g21001">
+        <g
+           id="g15698-0"
+           transform="translate(-4.2608901,23.779551)">
+          <g
+             id="shape733-980-6-7-7-6"
+             v:mID="733"
+             v:groupContext="shape"
+             transform="matrix(-0.00299082,0.35276457,-0.35276457,-0.00299082,698.40138,113.3321)"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6762-5-2-6-9">Ellipse.733</title>
+            <v:userDefs>
+              <v:ud
+                 v:nameU="visVersion"
+                 v:val="VT0(15):26" />
+            </v:userDefs>
+            <path
+               style="fill:#ffffff;stroke:#000000;stroke-width:0.23999999;stroke-linecap:round;stroke-linejoin:round"
+               inkscape:connector-curvature="0"
+               d="M 0,590 A 14.5912,5.27511 0 0 1 29.18,590 14.5912,5.27511 0 0 1 0,590 Z"
+               class="st4"
+               id="path6764-7-2-9-2" />
+          </g>
+          <g
+             id="shape741-997-8-1-1-1"
+             v:mID="741"
+             v:groupContext="shape"
+             transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,486.58475,326.69119)"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6802-5-6-1-7">Sheet.741</title>
+            <path
+               style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+               inkscape:connector-curvature="0"
+               d="M 0,595.28 H 15.2"
+               class="st13"
+               id="path6804-9-3-9-7" />
+          </g>
+          <g
+             id="shape742-1004-2-0-0-9"
+             v:mID="742"
+             v:groupContext="shape"
+             transform="matrix(-0.35276457,-0.00299082,0.00299082,-0.35276457,497.8062,326.78634)"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6818-7-2-89-7">Sheet.742</title>
+            <path
+               style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+               inkscape:connector-curvature="0"
+               d="M 0,595.28 H 26.53"
+               class="st13"
+               id="path6820-3-1-8-6" />
+          </g>
+        </g>
+        <g
+           id="g15428"
+           transform="translate(9.8912012,-45.904416)">
+          <path
+             id="path5513-1-8"
+             class="st4"
+             d="m 441.2086,194.80026 h 24.57799 a 3.0720972,3.0720972 0 0 0 3.06916,-3.07269 v -10.64681 a 3.0720972,3.0720972 0 0 0 -3.06916,-3.07269 H 441.2086 a 3.0720972,3.0720972 0 0 0 -3.07269,3.07269 v 10.64681 a 3.0720972,3.0720972 0 0 0 3.07269,3.07269 z"
+             inkscape:connector-curvature="0"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.08466655;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.52777743px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458335;stroke-linecap:square;stroke-miterlimit:3"
+             x="444.48605"
+             y="187.71933"
+             id="text12281-3-1-1-9"><tspan
+               sodipodi:role="line"
+               x="444.48605"
+               y="187.71933"
+               style="stroke-width:0.26458335"
+               id="tspan12283-7-2-7-5">Node-RED</tspan></text>
+        </g>
+        <text
+           id="text12039-8-7-6-5-8-1"
+           y="129.13158"
+           x="481.74142"
+           style="font-style:normal;font-weight:normal;font-size:2.00931954px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;color-interpolation-filters:sRGB;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.15069894;stroke-linecap:square;stroke-miterlimit:3"
+           xml:space="preserve"
+           transform="rotate(0.48575604)"><tspan
+             id="tspan12041-9-9-7-5-3-2"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.15069894"
+             y="129.13158"
+             x="481.74142"
+             sodipodi:role="line">Node-RED API</tspan></text>
+        <g
+           id="g19961"
+           transform="translate(-4.3970431,-4.4045859)">
+          <g
+             transform="translate(-3.860733,2.7874827)"
+             id="g17720">
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               transform="matrix(0.35277725,0,0,0.35277725,504.79807,-65.655554)"
+               id="group190-451-9"
+               v:mID="190"
+               v:groupContext="group">
+              <title
+                 id="title5793-6">Business Rules Engine.4002</title>
+              <g
+                 id="shape191-452-4"
+                 v:mID="191"
+                 v:groupContext="shape">
+                <title
+                   id="title5795-8">Sheet.191</title>
+                <path
+                   style="fill:#3f5765;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 49.44,557.64 c -47.54,0 -47.54,0 -47.54,0 -1.58,0 -1.9,0.38 -1.9,1.96 0,33.78 0,33.78 0,33.78 0,1.58 0.32,1.9 1.9,1.9 47.54,0 47.54,0 47.54,0 1.64,0 1.96,-0.32 1.96,-1.9 0,-33.78 0,-33.78 0,-33.78 0,-1.58 -0.32,-1.96 -1.96,-1.96 z"
+                   class="st6"
+                   id="path5797-0" />
+              </g>
+              <g
+                 id="shape192-454-8"
+                 v:mID="192"
+                 v:groupContext="shape"
+                 transform="translate(47.8487,-34.8471)">
+                <title
+                   id="title5800-1">Sheet.192</title>
+                <path
+                   style="fill:#3f5765;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 2.17,594.2 c 0,0.62 -0.48,1.08 -1.07,1.08 -0.59,0 -1.1,-0.46 -1.1,-1.08 0,-0.59 0.51,-1.07 1.1,-1.07 0.59,0 1.07,0.48 1.07,1.07 z"
+                   class="st6"
+                   id="path5802-0" />
+              </g>
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape193-456-2"
+               v:mID="193"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,505.24827,-66.271724)">
+              <title
+                 id="title5806-2">C#.524</title>
+              <path
+                 style="fill:#00b0f0;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,565.1 v 30.18 H 48.52 V 565.1 Z"
+                 class="st35"
+                 id="path5808-9" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="group194-458-7"
+               transform="matrix(0.35277725,0,0,0.35277725,505.54956,-71.912274)"
+               v:mID="194"
+               v:groupContext="group">
+              <title
+                 id="title5811-5">Sheet.194</title>
+              <g
+                 id="shape195-459-6"
+                 v:mID="195"
+                 v:groupContext="shape">
+                <title
+                   id="title5813-4">Sheet.195</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 5.52,584.22 c -3.05,0 -5.52,2.48 -5.52,5.53 0,3.06 2.47,5.53 5.52,5.53 3.06,0 5.52,-2.47 5.52,-5.53 0,-3.05 -2.46,-5.53 -5.52,-5.53 z m 0,10.32 c -2.62,0 -4.78,-2.15 -4.78,-4.79 0,-2.63 2.16,-4.79 4.78,-4.79 2.63,0 4.79,2.16 4.79,4.79 0,2.66 -2.16,4.79 -4.79,4.79 z"
+                   class="st36"
+                   id="path5815-6" />
+              </g>
+              <g
+                 id="shape196-461-3"
+                 v:mID="196"
+                 v:groupContext="shape"
+                 transform="translate(4.71566,-4.67495)">
+                <title
+                   id="title5818-7">Sheet.196</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 2.74,592.4 -1.95,1.22 C 0.35,593.64 0,593.99 0,594.45 c 0,0.46 0.37,0.83 0.83,0.83 0.44,0 0.79,-0.35 0.8,-0.8 l 1.2,-1.99 c 0.05,-0.05 -0.04,-0.13 -0.09,-0.09 z"
+                   class="st36"
+                   id="path5820-9" />
+              </g>
+              <g
+                 id="shape197-463-7"
+                 v:mID="197"
+                 v:groupContext="shape"
+                 transform="translate(5.15272,-8.76265)">
+                <title
+                   id="title5823-4">Sheet.197</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0.37,595.25 c 0.14,0 0.24,0 0.37,0.03 v -2.11 H 0 v 2.11 c 0.14,-0.03 0.24,-0.03 0.37,-0.03 z"
+                   class="st36"
+                   id="path5825-9" />
+              </g>
+              <g
+                 id="shape198-465-1"
+                 v:mID="198"
+                 v:groupContext="shape"
+                 transform="translate(1.49521,-7.56513)">
+                <title
+                   id="title5828-7">Sheet.198</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 2,594.76 -1.48,-1.5 -0.52,0.52 1.5,1.5 c 0.13,-0.19 0.32,-0.36 0.5,-0.52 z"
+                   class="st36"
+                   id="path5830-0" />
+              </g>
+              <g
+                 id="shape199-467-6"
+                 v:mID="199"
+                 v:groupContext="shape"
+                 transform="translate(7.54506,-7.56513)">
+                <title
+                   id="title5833-0">Sheet.199</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0.52,595.28 1.49,-1.5 -0.51,-0.52 -1.5,1.5 c 0.18,0.15 0.37,0.33 0.52,0.52 z"
+                   class="st36"
+                   id="path5835-8" />
+              </g>
+              <g
+                 id="shape200-469-5"
+                 v:mID="200"
+                 v:groupContext="shape"
+                 transform="translate(8.76423,-5.15857)">
+                <title
+                   id="title5838-3">Sheet.200</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,594.54 c 0.02,0.14 0.02,0.24 0.02,0.37 0,0.14 0,0.24 -0.02,0.37 h 2.09 v -0.74 z"
+                   class="st36"
+                   id="path5840-9" />
+              </g>
+              <g
+                 id="shape201-471-4"
+                 v:mID="201"
+                 v:groupContext="shape"
+                 transform="translate(0.184026,-5.15857)">
+                <title
+                   id="title5843-1">Sheet.201</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 2.08,594.91 c 0,-0.13 0,-0.23 0.02,-0.37 H 0 v 0.74 h 2.1 c -0.02,-0.13 -0.02,-0.23 -0.02,-0.37 z"
+                   class="st36"
+                   id="path5845-5" />
+              </g>
+              <g
+                 id="shape202-473-4"
+                 v:mID="202"
+                 v:groupContext="shape"
+                 transform="translate(4.23259,-2.57928)">
+                <title
+                   id="title5848-1">Sheet.202</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,594.54 v 0.74 h 2.58 v -0.74 z"
+                   class="st36"
+                   id="path5850-5" />
+              </g>
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="group203-475-5"
+               transform="matrix(0.35277725,0,0,0.35277725,510.29737,-71.912274)"
+               v:mID="203"
+               v:groupContext="group">
+              <title
+                 id="title5854-4">Sheet.203</title>
+              <g
+                 id="shape204-476-9"
+                 v:mID="204"
+                 v:groupContext="shape"
+                 transform="translate(0.712498,-0.940772)">
+                <title
+                   id="title5856-8">Sheet.204</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,590.1 v 5.18 h 1.66 v -5.18 z"
+                   class="st36"
+                   id="path5858-3" />
+              </g>
+              <g
+                 id="shape205-478-8"
+                 v:mID="205"
+                 v:groupContext="shape"
+                 transform="translate(2.84999,-0.940772)">
+                <title
+                   id="title5861-5">Sheet.205</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,592.22 v 3.06 h 1.66 v -3.06 z"
+                   class="st36"
+                   id="path5863-2" />
+              </g>
+              <g
+                 id="shape206-480-2"
+                 v:mID="206"
+                 v:groupContext="shape"
+                 transform="translate(7.12498,-0.940772)">
+                <title
+                   id="title5866-2">Sheet.206</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,588.69 v 6.59 h 1.66 v -6.59 z"
+                   class="st36"
+                   id="path5868-7" />
+              </g>
+              <g
+                 id="shape207-482-0"
+                 v:mID="207"
+                 v:groupContext="shape"
+                 transform="translate(9.26247,-0.940772)">
+                <title
+                   id="title5871-3">Sheet.207</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,591.51 v 3.77 h 1.66 v -3.77 z"
+                   class="st36"
+                   id="path5873-4" />
+              </g>
+              <g
+                 id="shape208-484-6"
+                 v:mID="208"
+                 v:groupContext="shape"
+                 transform="translate(4.98749,-0.940772)">
+                <title
+                   id="title5876-3">Sheet.208</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,587.51 v 7.77 h 1.66 v -7.77 z"
+                   class="st36"
+                   id="path5878-6" />
+              </g>
+              <g
+                 id="shape209-486-3"
+                 v:mID="209"
+                 v:groupContext="shape">
+                <title
+                   id="title5881-3">Sheet.209</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 0.47,594.81 V 584.22 H 0 v 11.06 h 11.64 v -0.47 z"
+                   class="st36"
+                   id="path5883-4" />
+              </g>
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="group210-488-4"
+               transform="matrix(0.35277725,0,0,0.35277725,515.25541,-71.824114)"
+               v:mID="210"
+               v:groupContext="group">
+              <title
+                 id="title5887-3">Sheet.210</title>
+              <g
+                 id="shape211-489-9"
+                 v:mID="211"
+                 v:groupContext="shape"
+                 transform="translate(0.949997,-0.941999)">
+                <title
+                   id="title5889-7">Sheet.211</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 7.91,590.24 -3.28,4.09 -2.7,-2.34 -1.86,1.58 L 0,593.48 v 1.8 h 10.69 v -3.46 z"
+                   class="st36"
+                   id="path5891-2" />
+              </g>
+              <g
+                 id="shape212-491-5"
+                 v:mID="212"
+                 v:groupContext="shape"
+                 transform="translate(0.949997,-3.2234)">
+                <title
+                   id="title5894-8">Sheet.212</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 7.7,587.67 -3.84,4.44 -3,-0.81 -0.86,1.22 v 2.3 l 1.93,-1.63 2.42,2.09 3.22,-3.96 3.12,1.81 v -4.79 z"
+                   class="st36"
+                   id="path5896-9" />
+              </g>
+              <g
+                 id="shape213-493-0"
+                 v:mID="213"
+                 v:groupContext="shape">
+                <title
+                   id="title5899-2">Sheet.213</title>
+                <path
+                   style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 0.47,594.8 V 583.97 H 0 v 11.31 h 11.64 v -0.48 z"
+                   class="st36"
+                   id="path5901-4" />
+              </g>
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="group214-495-7"
+               transform="matrix(0.35277725,0,0,0.35277725,520.06105,-71.824114)"
+               v:mID="214"
+               v:groupContext="group">
+              <title
+                 id="title5905-6">Sheet.214</title>
+              <g
+                 id="shape215-496-5"
+                 v:mID="215"
+                 v:groupContext="shape"
+                 transform="translate(1.2327,-0.0231546)">
+                <title
+                   id="title5907-7">Sheet.215</title>
+                <path
+                   style="fill:#ffffff;stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,584.02 v 11.26 h 0.31 v -11.26 z"
+                   class="st37"
+                   id="path5909-1" />
+              </g>
+              <g
+                 id="shape216-498-3"
+                 v:mID="216"
+                 v:groupContext="shape"
+                 transform="translate(1.2327,-0.0231546)">
+                <title
+                   id="title5912-3">Sheet.216</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 0,595.28 H 0.31 V 584.02 H 0 v 11.26 0"
+                   class="st38"
+                   id="path5914-3" />
+              </g>
+              <g
+                 id="shape217-501-8"
+                 v:mID="217"
+                 v:groupContext="shape"
+                 transform="translate(4.35477,-0.0347321)">
+                <title
+                   id="title5917-5">Sheet.217</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,584.08 v 11.2"
+                   class="st38"
+                   id="path5919-1" />
+              </g>
+              <g
+                 id="shape218-504-0"
+                 v:mID="218"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-11.23)">
+                <title
+                   id="title5922-8">Sheet.218</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5924-7" />
+              </g>
+              <g
+                 id="shape219-507-6"
+                 v:mID="219"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-10.5238)">
+                <title
+                   id="title5927-3">Sheet.219</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5929-5" />
+              </g>
+              <g
+                 id="shape220-510-0"
+                 v:mID="220"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-9.82915)">
+                <title
+                   id="title5932-8">Sheet.220</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5934-0" />
+              </g>
+              <g
+                 id="shape221-513-4"
+                 v:mID="221"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-9.12293)">
+                <title
+                   id="title5937-1">Sheet.221</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5939-1" />
+              </g>
+              <g
+                 id="shape222-516-3"
+                 v:mID="222"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-8.42829)">
+                <title
+                   id="title5942-5">Sheet.222</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5944-9" />
+              </g>
+              <g
+                 id="shape223-519-3"
+                 v:mID="223"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-7.72208)">
+                <title
+                   id="title5947-4">Sheet.223</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5949-1" />
+              </g>
+              <g
+                 id="shape224-522-5"
+                 v:mID="224"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-7.02744)">
+                <title
+                   id="title5952-0">Sheet.224</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5954-8" />
+              </g>
+              <g
+                 id="shape225-525-3"
+                 v:mID="225"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-6.30964)">
+                <title
+                   id="title5957-5">Sheet.225</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5959-6" />
+              </g>
+              <g
+                 id="shape226-528-5"
+                 v:mID="226"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-5.60343)">
+                <title
+                   id="title5962-9">Sheet.226</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5964-9" />
+              </g>
+              <g
+                 id="shape227-531-0"
+                 v:mID="227"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-4.90879)">
+                <title
+                   id="title5967-7">Sheet.227</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5969-6" />
+              </g>
+              <g
+                 id="shape228-534-3"
+                 v:mID="228"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-4.20257)">
+                <title
+                   id="title5972-7">Sheet.228</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5974-6" />
+              </g>
+              <g
+                 id="shape229-537-1"
+                 v:mID="229"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-3.49635)">
+                <title
+                   id="title5977-5">Sheet.229</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5979-0" />
+              </g>
+              <g
+                 id="shape230-540-6"
+                 v:mID="230"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-2.80171)">
+                <title
+                   id="title5982-5">Sheet.230</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5984-0" />
+              </g>
+              <g
+                 id="shape231-543-8"
+                 v:mID="231"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-2.0955)">
+                <title
+                   id="title5987-1">Sheet.231</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5989-2" />
+              </g>
+              <g
+                 id="shape232-546-2"
+                 v:mID="232"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-1.40086)">
+                <title
+                   id="title5992-6">Sheet.232</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5994-9" />
+              </g>
+              <g
+                 id="shape233-549-1"
+                 v:mID="233"
+                 v:groupContext="shape"
+                 transform="translate(3.7557,-0.694639)">
+                <title
+                   id="title5997-0">Sheet.233</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path5999-4" />
+              </g>
+              <g
+                 id="shape234-552-2"
+                 v:mID="234"
+                 v:groupContext="shape"
+                 transform="translate(3.7557)">
+                <title
+                   id="title6002-7">Sheet.234</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="M 1.16,595.28 H 0"
+                   class="st38"
+                   id="path6004-4" />
+              </g>
+              <g
+                 id="shape235-555-0"
+                 v:mID="235"
+                 v:groupContext="shape"
+                 transform="translate(0,-7.87258)">
+                <title
+                   id="title6007-3">Sheet.235</title>
+                <path
+                   style="fill:#ffffff;stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,594.25 h 2.05 v -0.21 l 0.62,0.62 -0.62,0.62 v -0.21 H 0 Z"
+                   class="st37"
+                   id="path6009-2" />
+              </g>
+              <g
+                 id="shape236-557-8"
+                 v:mID="236"
+                 v:groupContext="shape"
+                 transform="translate(0,-7.87258)">
+                <title
+                   id="title6012-0">Sheet.236</title>
+                <path
+                   style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+                   inkscape:connector-curvature="0"
+                   d="m 0,594.25 h 2.05 v -0.21 l 0.62,0.62 -0.62,0.62 v -0.21 H 0 v -0.82 0"
+                   class="st38"
+                   id="path6014-3" />
+              </g>
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape237-560-7"
+               v:mID="237"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,505.54956,-67.149134)">
+              <title
+                 id="title6018-0">Dashboard</title>
+              <path
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0.8,587.09 4.59,3.15 5.25,0.9 c -0.57,2.37 -2.7,4.14 -5.25,4.14 -2.97,0 -5.39,-2.41 -5.39,-5.4 0,-1.02 0.29,-1.99 0.8,-2.79 z m 9.04,-0.26 c 0.6,0.86 0.94,1.92 0.94,3.05 l -0.05,0.62 -4.56,-0.77 z M 5.87,584.5 c 1.36,0.11 2.58,0.73 3.46,1.7 l -3.41,3.02 -0.26,0.2 z m -0.9,-0.02 0.22,4.83 -3.91,-2.89 c 0.89,-1.1 2.2,-1.83 3.69,-1.94 z"
+                 class="st36"
+                 id="path6020-0" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape238-562-3"
+               v:mID="238"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,510.17496,-67.575394)">
+              <title
+                 id="title6023-4">Sheet.238</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+                 class="st39"
+                 id="path6025-9" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape239-564-2"
+               v:mID="239"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,510.17496,-67.575394)">
+              <title
+                 id="title6028-7">Sheet.239</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6030-4" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape240-567-2"
+               v:mID="240"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,511.82853,-67.575394)">
+              <title
+                 id="title6033-5">Sheet.240</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6035-2" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape241-570-4"
+               v:mID="241"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,513.50641,-67.575394)">
+              <title
+                 id="title6038-4">Sheet.241</title>
+              <path
+                 style="fill:#ffffff;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.75 v -4.74 z"
+                 class="st41"
+                 id="path6040-3" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape242-572-8"
+               v:mID="242"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,513.50641,-67.575394)">
+              <title
+                 id="title6043-6">Sheet.242</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.75 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6045-0" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape243-575-8"
+               v:mID="243"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,515.18323,-67.575394)">
+              <title
+                 id="title6048-9">Sheet.243</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+                 class="st39"
+                 id="path6050-2" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape244-577-2"
+               v:mID="244"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,515.18323,-67.575394)">
+              <title
+                 id="title6053-3">Sheet.244</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6055-1" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape245-580-8"
+               v:mID="245"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,516.86115,-67.575394)">
+              <title
+                 id="title6058-3">Sheet.245</title>
+              <path
+                 style="fill:#ffffff;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+                 class="st41"
+                 id="path6060-4" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape246-582-2"
+               v:mID="246"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,516.86115,-67.575394)">
+              <title
+                 id="title6063-2">Sheet.246</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6065-4" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape247-585-5"
+               v:mID="247"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,510.17496,-69.233274)">
+              <title
+                 id="title6068-1">Sheet.247</title>
+              <path
+                 style="fill:#ffffff;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+                 class="st41"
+                 id="path6070-7" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape248-587-5"
+               v:mID="248"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,510.17496,-69.233274)">
+              <title
+                 id="title6073-7">Sheet.248</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6075-1" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape249-590-6"
+               v:mID="249"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,511.82853,-69.233274)">
+              <title
+                 id="title6078-9">Sheet.249</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+                 class="st39"
+                 id="path6080-8" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape250-592-1"
+               v:mID="250"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,511.82853,-69.233274)">
+              <title
+                 id="title6083-3">Sheet.250</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6085-3" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape251-595-3"
+               v:mID="251"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,513.50641,-69.233274)">
+              <title
+                 id="title6088-7">Sheet.251</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.75 v -4.74 z"
+                 class="st39"
+                 id="path6090-9" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape252-597-8"
+               v:mID="252"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,513.50641,-69.233274)">
+              <title
+                 id="title6093-6">Sheet.252</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.75 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6095-7" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape253-600-0"
+               v:mID="253"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,515.18323,-69.233274)">
+              <title
+                 id="title6098-4">Sheet.253</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6100-8" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape254-603-4"
+               v:mID="254"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,516.86115,-69.233274)">
+              <title
+                 id="title6103-8">Sheet.254</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+                 class="st39"
+                 id="path6105-1" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape255-605-6"
+               v:mID="255"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,516.86115,-69.233274)">
+              <title
+                 id="title6108-8">Sheet.255</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+                 class="st40"
+                 id="path6110-5" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape256-608-2"
+               v:mID="256"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,519.77942,-67.498094)">
+              <title
+                 id="title6113-1">Sheet.256</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+                 class="st42"
+                 id="path6115-9" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape257-610-9"
+               v:mID="257"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,519.77942,-67.498094)">
+              <title
+                 id="title6118-6">Sheet.257</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6120-0" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape258-613-6"
+               v:mID="258"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,520.6528,-67.498094)">
+              <title
+                 id="title6123-4">Sheet.258</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+                 class="st42"
+                 id="path6125-9" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape259-615-9"
+               v:mID="259"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,520.6528,-67.498094)">
+              <title
+                 id="title6128-0">Sheet.259</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6130-8" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape260-618-9"
+               v:mID="260"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,519.77942,-68.367654)">
+              <title
+                 id="title6133-3">Sheet.260</title>
+              <path
+                 style="fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+                 class="st44"
+                 id="path6135-1" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape261-620-4"
+               v:mID="261"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,519.77942,-68.367654)">
+              <title
+                 id="title6138-8">Sheet.261</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6140-9" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape262-623-6"
+               v:mID="262"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,520.6528,-68.367654)">
+              <title
+                 id="title6143-7">Sheet.262</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6145-7" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape263-626-3"
+               v:mID="263"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,519.77942,-69.251514)">
+              <title
+                 id="title6148-7">Sheet.263</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6150-1" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape264-629-2"
+               v:mID="264"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,520.6528,-69.251514)">
+              <title
+                 id="title6153-2">Sheet.264</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+                 class="st42"
+                 id="path6155-1" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape265-631-5"
+               v:mID="265"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,520.6528,-69.251514)">
+              <title
+                 id="title6158-0">Sheet.265</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6160-9" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape266-634-0"
+               v:mID="266"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,519.77942,-70.114484)">
+              <title
+                 id="title6163-4">Sheet.266</title>
+              <path
+                 style="fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+                 class="st44"
+                 id="path6165-0" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape267-636-1"
+               v:mID="267"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,519.77942,-70.114484)">
+              <title
+                 id="title6168-3">Sheet.267</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6170-7" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape268-639-4"
+               v:mID="268"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,520.6528,-70.114484)">
+              <title
+                 id="title6173-1">Sheet.268</title>
+              <path
+                 style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+                 class="st42"
+                 id="path6175-1" />
+            </g>
+            <g
+               style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+               id="shape269-641-3"
+               v:mID="269"
+               v:groupContext="shape"
+               transform="matrix(0.35277725,0,0,0.35277725,520.6528,-70.114484)">
+              <title
+                 id="title6178-0">Sheet.269</title>
+              <path
+                 style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+                 inkscape:connector-curvature="0"
+                 d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+                 class="st43"
+                 id="path6180-3" />
+            </g>
+          </g>
+          <text
+             id="text19624-9-2-9"
+             y="151.48267"
+             x="500.99393"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               id="tspan19651-2-5"
+               style="stroke-width:0.26458332"
+               y="151.48267"
+               x="500.99393"
+               sodipodi:role="line">Node-RED</tspan><tspan
+               id="tspan19720"
+               style="stroke-width:0.26458332"
+               y="155.8924"
+               x="500.99393"
+               sodipodi:role="line">web browser</tspan></text>
+        </g>
+      </g>
+      <g
+         transform="translate(-4.2333335,-16.647485)"
+         id="g20487">
+        <g
+           id="g17720-8"
+           transform="translate(-3.860733,55.028171)">
+          <g
+             v:groupContext="group"
+             v:mID="190"
+             id="group190-451-9-9"
+             transform="matrix(0.35277725,0,0,0.35277725,504.79807,-65.655554)"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title5793-6-4">Business Rules Engine.4002</title>
+            <g
+               v:groupContext="shape"
+               v:mID="191"
+               id="shape191-452-4-1">
+              <title
+                 id="title5795-8-6">Sheet.191</title>
+              <path
+                 id="path5797-0-4"
+                 class="st6"
+                 d="m 49.44,557.64 c -47.54,0 -47.54,0 -47.54,0 -1.58,0 -1.9,0.38 -1.9,1.96 0,33.78 0,33.78 0,33.78 0,1.58 0.32,1.9 1.9,1.9 47.54,0 47.54,0 47.54,0 1.64,0 1.96,-0.32 1.96,-1.9 0,-33.78 0,-33.78 0,-33.78 0,-1.58 -0.32,-1.96 -1.96,-1.96 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#3f5765;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(47.8487,-34.8471)"
+               v:groupContext="shape"
+               v:mID="192"
+               id="shape192-454-8-3">
+              <title
+                 id="title5800-1-5">Sheet.192</title>
+              <path
+                 id="path5802-0-4"
+                 class="st6"
+                 d="m 2.17,594.2 c 0,0.62 -0.48,1.08 -1.07,1.08 -0.59,0 -1.1,-0.46 -1.1,-1.08 0,-0.59 0.51,-1.07 1.1,-1.07 0.59,0 1.07,0.48 1.07,1.07 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#3f5765;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,505.24827,-66.271724)"
+             v:groupContext="shape"
+             v:mID="193"
+             id="shape193-456-2-8"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title5806-2-7">C#.524</title>
+            <path
+               id="path5808-9-3"
+               class="st35"
+               d="m 0,565.1 v 30.18 H 48.52 V 565.1 Z"
+               inkscape:connector-curvature="0"
+               style="fill:#00b0f0;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             v:groupContext="group"
+             v:mID="194"
+             transform="matrix(0.35277725,0,0,0.35277725,505.54956,-71.912274)"
+             id="group194-458-7-3"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title5811-5-5">Sheet.194</title>
+            <g
+               v:groupContext="shape"
+               v:mID="195"
+               id="shape195-459-6-0">
+              <title
+                 id="title5813-4-1">Sheet.195</title>
+              <path
+                 id="path5815-6-4"
+                 class="st36"
+                 d="m 5.52,584.22 c -3.05,0 -5.52,2.48 -5.52,5.53 0,3.06 2.47,5.53 5.52,5.53 3.06,0 5.52,-2.47 5.52,-5.53 0,-3.05 -2.46,-5.53 -5.52,-5.53 z m 0,10.32 c -2.62,0 -4.78,-2.15 -4.78,-4.79 0,-2.63 2.16,-4.79 4.78,-4.79 2.63,0 4.79,2.16 4.79,4.79 0,2.66 -2.16,4.79 -4.79,4.79 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(4.71566,-4.67495)"
+               v:groupContext="shape"
+               v:mID="196"
+               id="shape196-461-3-5">
+              <title
+                 id="title5818-7-7">Sheet.196</title>
+              <path
+                 id="path5820-9-0"
+                 class="st36"
+                 d="m 2.74,592.4 -1.95,1.22 C 0.35,593.64 0,593.99 0,594.45 c 0,0.46 0.37,0.83 0.83,0.83 0.44,0 0.79,-0.35 0.8,-0.8 l 1.2,-1.99 c 0.05,-0.05 -0.04,-0.13 -0.09,-0.09 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(5.15272,-8.76265)"
+               v:groupContext="shape"
+               v:mID="197"
+               id="shape197-463-7-7">
+              <title
+                 id="title5823-4-8">Sheet.197</title>
+              <path
+                 id="path5825-9-9"
+                 class="st36"
+                 d="m 0.37,595.25 c 0.14,0 0.24,0 0.37,0.03 v -2.11 H 0 v 2.11 c 0.14,-0.03 0.24,-0.03 0.37,-0.03 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(1.49521,-7.56513)"
+               v:groupContext="shape"
+               v:mID="198"
+               id="shape198-465-1-9">
+              <title
+                 id="title5828-7-3">Sheet.198</title>
+              <path
+                 id="path5830-0-9"
+                 class="st36"
+                 d="m 2,594.76 -1.48,-1.5 -0.52,0.52 1.5,1.5 c 0.13,-0.19 0.32,-0.36 0.5,-0.52 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(7.54506,-7.56513)"
+               v:groupContext="shape"
+               v:mID="199"
+               id="shape199-467-6-4">
+              <title
+                 id="title5833-0-6">Sheet.199</title>
+              <path
+                 id="path5835-8-4"
+                 class="st36"
+                 d="m 0.52,595.28 1.49,-1.5 -0.51,-0.52 -1.5,1.5 c 0.18,0.15 0.37,0.33 0.52,0.52 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(8.76423,-5.15857)"
+               v:groupContext="shape"
+               v:mID="200"
+               id="shape200-469-5-5">
+              <title
+                 id="title5838-3-5">Sheet.200</title>
+              <path
+                 id="path5840-9-5"
+                 class="st36"
+                 d="m 0,594.54 c 0.02,0.14 0.02,0.24 0.02,0.37 0,0.14 0,0.24 -0.02,0.37 h 2.09 v -0.74 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(0.184026,-5.15857)"
+               v:groupContext="shape"
+               v:mID="201"
+               id="shape201-471-4-6">
+              <title
+                 id="title5843-1-0">Sheet.201</title>
+              <path
+                 id="path5845-5-6"
+                 class="st36"
+                 d="m 2.08,594.91 c 0,-0.13 0,-0.23 0.02,-0.37 H 0 v 0.74 h 2.1 c -0.02,-0.13 -0.02,-0.23 -0.02,-0.37 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(4.23259,-2.57928)"
+               v:groupContext="shape"
+               v:mID="202"
+               id="shape202-473-4-2">
+              <title
+                 id="title5848-1-6">Sheet.202</title>
+              <path
+                 id="path5850-5-9"
+                 class="st36"
+                 d="m 0,594.54 v 0.74 h 2.58 v -0.74 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+          </g>
+          <g
+             v:groupContext="group"
+             v:mID="203"
+             transform="matrix(0.35277725,0,0,0.35277725,510.29737,-71.912274)"
+             id="group203-475-5-9"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title5854-4-2">Sheet.203</title>
+            <g
+               transform="translate(0.712498,-0.940772)"
+               v:groupContext="shape"
+               v:mID="204"
+               id="shape204-476-9-9">
+              <title
+                 id="title5856-8-6">Sheet.204</title>
+              <path
+                 id="path5858-3-5"
+                 class="st36"
+                 d="m 0,590.1 v 5.18 h 1.66 v -5.18 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(2.84999,-0.940772)"
+               v:groupContext="shape"
+               v:mID="205"
+               id="shape205-478-8-5">
+              <title
+                 id="title5861-5-3">Sheet.205</title>
+              <path
+                 id="path5863-2-8"
+                 class="st36"
+                 d="m 0,592.22 v 3.06 h 1.66 v -3.06 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(7.12498,-0.940772)"
+               v:groupContext="shape"
+               v:mID="206"
+               id="shape206-480-2-6">
+              <title
+                 id="title5866-2-7">Sheet.206</title>
+              <path
+                 id="path5868-7-3"
+                 class="st36"
+                 d="m 0,588.69 v 6.59 h 1.66 v -6.59 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(9.26247,-0.940772)"
+               v:groupContext="shape"
+               v:mID="207"
+               id="shape207-482-0-6">
+              <title
+                 id="title5871-3-0">Sheet.207</title>
+              <path
+                 id="path5873-4-2"
+                 class="st36"
+                 d="m 0,591.51 v 3.77 h 1.66 v -3.77 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(4.98749,-0.940772)"
+               v:groupContext="shape"
+               v:mID="208"
+               id="shape208-484-6-6">
+              <title
+                 id="title5876-3-9">Sheet.208</title>
+              <path
+                 id="path5878-6-3"
+                 class="st36"
+                 d="m 0,587.51 v 7.77 h 1.66 v -7.77 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               v:groupContext="shape"
+               v:mID="209"
+               id="shape209-486-3-0">
+              <title
+                 id="title5881-3-8">Sheet.209</title>
+              <path
+                 id="path5883-4-7"
+                 class="st36"
+                 d="M 0.47,594.81 V 584.22 H 0 v 11.06 h 11.64 v -0.47 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+          </g>
+          <g
+             v:groupContext="group"
+             v:mID="210"
+             transform="matrix(0.35277725,0,0,0.35277725,515.25541,-71.824114)"
+             id="group210-488-4-6"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title5887-3-5">Sheet.210</title>
+            <g
+               transform="translate(0.949997,-0.941999)"
+               v:groupContext="shape"
+               v:mID="211"
+               id="shape211-489-9-2">
+              <title
+                 id="title5889-7-4">Sheet.211</title>
+              <path
+                 id="path5891-2-0"
+                 class="st36"
+                 d="m 7.91,590.24 -3.28,4.09 -2.7,-2.34 -1.86,1.58 L 0,593.48 v 1.8 h 10.69 v -3.46 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(0.949997,-3.2234)"
+               v:groupContext="shape"
+               v:mID="212"
+               id="shape212-491-5-0">
+              <title
+                 id="title5894-8-6">Sheet.212</title>
+              <path
+                 id="path5896-9-8"
+                 class="st36"
+                 d="m 7.7,587.67 -3.84,4.44 -3,-0.81 -0.86,1.22 v 2.3 l 1.93,-1.63 2.42,2.09 3.22,-3.96 3.12,1.81 v -4.79 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               v:groupContext="shape"
+               v:mID="213"
+               id="shape213-493-0-5">
+              <title
+                 id="title5899-2-4">Sheet.213</title>
+              <path
+                 id="path5901-4-9"
+                 class="st36"
+                 d="M 0.47,594.8 V 583.97 H 0 v 11.31 h 11.64 v -0.48 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+          </g>
+          <g
+             v:groupContext="group"
+             v:mID="214"
+             transform="matrix(0.35277725,0,0,0.35277725,520.06105,-71.824114)"
+             id="group214-495-7-4"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title5905-6-6">Sheet.214</title>
+            <g
+               transform="translate(1.2327,-0.0231546)"
+               v:groupContext="shape"
+               v:mID="215"
+               id="shape215-496-5-8">
+              <title
+                 id="title5907-7-3">Sheet.215</title>
+              <path
+                 id="path5909-1-2"
+                 class="st37"
+                 d="m 0,584.02 v 11.26 h 0.31 v -11.26 z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(1.2327,-0.0231546)"
+               v:groupContext="shape"
+               v:mID="216"
+               id="shape216-498-3-3">
+              <title
+                 id="title5912-3-6">Sheet.216</title>
+              <path
+                 id="path5914-3-2"
+                 class="st38"
+                 d="M 0,595.28 H 0.31 V 584.02 H 0 v 11.26 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(4.35477,-0.0347321)"
+               v:groupContext="shape"
+               v:mID="217"
+               id="shape217-501-8-2">
+              <title
+                 id="title5917-5-4">Sheet.217</title>
+              <path
+                 id="path5919-1-7"
+                 class="st38"
+                 d="m 0,584.08 v 11.2"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-11.23)"
+               v:groupContext="shape"
+               v:mID="218"
+               id="shape218-504-0-0">
+              <title
+                 id="title5922-8-4">Sheet.218</title>
+              <path
+                 id="path5924-7-9"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-10.5238)"
+               v:groupContext="shape"
+               v:mID="219"
+               id="shape219-507-6-6">
+              <title
+                 id="title5927-3-5">Sheet.219</title>
+              <path
+                 id="path5929-5-4"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-9.82915)"
+               v:groupContext="shape"
+               v:mID="220"
+               id="shape220-510-0-6">
+              <title
+                 id="title5932-8-4">Sheet.220</title>
+              <path
+                 id="path5934-0-2"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-9.12293)"
+               v:groupContext="shape"
+               v:mID="221"
+               id="shape221-513-4-5">
+              <title
+                 id="title5937-1-1">Sheet.221</title>
+              <path
+                 id="path5939-1-6"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-8.42829)"
+               v:groupContext="shape"
+               v:mID="222"
+               id="shape222-516-3-1">
+              <title
+                 id="title5942-5-3">Sheet.222</title>
+              <path
+                 id="path5944-9-7"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-7.72208)"
+               v:groupContext="shape"
+               v:mID="223"
+               id="shape223-519-3-7">
+              <title
+                 id="title5947-4-1">Sheet.223</title>
+              <path
+                 id="path5949-1-2"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-7.02744)"
+               v:groupContext="shape"
+               v:mID="224"
+               id="shape224-522-5-1">
+              <title
+                 id="title5952-0-0">Sheet.224</title>
+              <path
+                 id="path5954-8-8"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-6.30964)"
+               v:groupContext="shape"
+               v:mID="225"
+               id="shape225-525-3-9">
+              <title
+                 id="title5957-5-0">Sheet.225</title>
+              <path
+                 id="path5959-6-1"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-5.60343)"
+               v:groupContext="shape"
+               v:mID="226"
+               id="shape226-528-5-3">
+              <title
+                 id="title5962-9-4">Sheet.226</title>
+              <path
+                 id="path5964-9-8"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-4.90879)"
+               v:groupContext="shape"
+               v:mID="227"
+               id="shape227-531-0-5">
+              <title
+                 id="title5967-7-8">Sheet.227</title>
+              <path
+                 id="path5969-6-2"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-4.20257)"
+               v:groupContext="shape"
+               v:mID="228"
+               id="shape228-534-3-2">
+              <title
+                 id="title5972-7-0">Sheet.228</title>
+              <path
+                 id="path5974-6-6"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-3.49635)"
+               v:groupContext="shape"
+               v:mID="229"
+               id="shape229-537-1-3">
+              <title
+                 id="title5977-5-6">Sheet.229</title>
+              <path
+                 id="path5979-0-1"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-2.80171)"
+               v:groupContext="shape"
+               v:mID="230"
+               id="shape230-540-6-0">
+              <title
+                 id="title5982-5-5">Sheet.230</title>
+              <path
+                 id="path5984-0-7"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-2.0955)"
+               v:groupContext="shape"
+               v:mID="231"
+               id="shape231-543-8-4">
+              <title
+                 id="title5987-1-2">Sheet.231</title>
+              <path
+                 id="path5989-2-0"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-1.40086)"
+               v:groupContext="shape"
+               v:mID="232"
+               id="shape232-546-2-0">
+              <title
+                 id="title5992-6-3">Sheet.232</title>
+              <path
+                 id="path5994-9-3"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557,-0.694639)"
+               v:groupContext="shape"
+               v:mID="233"
+               id="shape233-549-1-9">
+              <title
+                 id="title5997-0-0">Sheet.233</title>
+              <path
+                 id="path5999-4-4"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(3.7557)"
+               v:groupContext="shape"
+               v:mID="234"
+               id="shape234-552-2-3">
+              <title
+                 id="title6002-7-3">Sheet.234</title>
+              <path
+                 id="path6004-4-4"
+                 class="st38"
+                 d="M 1.16,595.28 H 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(0,-7.87258)"
+               v:groupContext="shape"
+               v:mID="235"
+               id="shape235-555-0-2">
+              <title
+                 id="title6007-3-4">Sheet.235</title>
+              <path
+                 id="path6009-2-5"
+                 class="st37"
+                 d="m 0,594.25 h 2.05 v -0.21 l 0.62,0.62 -0.62,0.62 v -0.21 H 0 Z"
+                 inkscape:connector-curvature="0"
+                 style="fill:#ffffff;stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+            <g
+               transform="translate(0,-7.87258)"
+               v:groupContext="shape"
+               v:mID="236"
+               id="shape236-557-8-3">
+              <title
+                 id="title6012-0-8">Sheet.236</title>
+              <path
+                 id="path6014-3-1"
+                 class="st38"
+                 d="m 0,594.25 h 2.05 v -0.21 l 0.62,0.62 -0.62,0.62 v -0.21 H 0 v -0.82 0"
+                 inkscape:connector-curvature="0"
+                 style="stroke:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+            </g>
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,505.54956,-67.149134)"
+             v:groupContext="shape"
+             v:mID="237"
+             id="shape237-560-7-1"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6018-0-3">Dashboard</title>
+            <path
+               id="path6020-0-1"
+               class="st36"
+               d="m 0.8,587.09 4.59,3.15 5.25,0.9 c -0.57,2.37 -2.7,4.14 -5.25,4.14 -2.97,0 -5.39,-2.41 -5.39,-5.4 0,-1.02 0.29,-1.99 0.8,-2.79 z m 9.04,-0.26 c 0.6,0.86 0.94,1.92 0.94,3.05 l -0.05,0.62 -4.56,-0.77 z M 5.87,584.5 c 1.36,0.11 2.58,0.73 3.46,1.7 l -3.41,3.02 -0.26,0.2 z m -0.9,-0.02 0.22,4.83 -3.91,-2.89 c 0.89,-1.1 2.2,-1.83 3.69,-1.94 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff;stroke:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,510.17496,-67.575394)"
+             v:groupContext="shape"
+             v:mID="238"
+             id="shape238-562-3-5"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6023-4-8">Sheet.238</title>
+            <path
+               id="path6025-9-1"
+               class="st39"
+               d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,510.17496,-67.575394)"
+             v:groupContext="shape"
+             v:mID="239"
+             id="shape239-564-2-3"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6028-7-3">Sheet.239</title>
+            <path
+               id="path6030-4-9"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,511.82853,-67.575394)"
+             v:groupContext="shape"
+             v:mID="240"
+             id="shape240-567-2-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6033-5-5">Sheet.240</title>
+            <path
+               id="path6035-2-4"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,513.50641,-67.575394)"
+             v:groupContext="shape"
+             v:mID="241"
+             id="shape241-570-4-4"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6038-4-9">Sheet.241</title>
+            <path
+               id="path6040-3-6"
+               class="st41"
+               d="m 0,590.54 v 4.74 h 4.75 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,513.50641,-67.575394)"
+             v:groupContext="shape"
+             v:mID="242"
+             id="shape242-572-8-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6043-6-2">Sheet.242</title>
+            <path
+               id="path6045-0-1"
+               class="st40"
+               d="m 0,595.28 h 4.75 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,515.18323,-67.575394)"
+             v:groupContext="shape"
+             v:mID="243"
+             id="shape243-575-8-0"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6048-9-1">Sheet.243</title>
+            <path
+               id="path6050-2-3"
+               class="st39"
+               d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,515.18323,-67.575394)"
+             v:groupContext="shape"
+             v:mID="244"
+             id="shape244-577-2-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6053-3-7">Sheet.244</title>
+            <path
+               id="path6055-1-6"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,516.86115,-67.575394)"
+             v:groupContext="shape"
+             v:mID="245"
+             id="shape245-580-8-3"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6058-3-9">Sheet.245</title>
+            <path
+               id="path6060-4-1"
+               class="st41"
+               d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,516.86115,-67.575394)"
+             v:groupContext="shape"
+             v:mID="246"
+             id="shape246-582-2-0"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6063-2-4">Sheet.246</title>
+            <path
+               id="path6065-4-1"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,510.17496,-69.233274)"
+             v:groupContext="shape"
+             v:mID="247"
+             id="shape247-585-5-1"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6068-1-8">Sheet.247</title>
+            <path
+               id="path6070-7-6"
+               class="st41"
+               d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,510.17496,-69.233274)"
+             v:groupContext="shape"
+             v:mID="248"
+             id="shape248-587-5-4"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6073-7-3">Sheet.248</title>
+            <path
+               id="path6075-1-4"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,511.82853,-69.233274)"
+             v:groupContext="shape"
+             v:mID="249"
+             id="shape249-590-6-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6078-9-7">Sheet.249</title>
+            <path
+               id="path6080-8-0"
+               class="st39"
+               d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,511.82853,-69.233274)"
+             v:groupContext="shape"
+             v:mID="250"
+             id="shape250-592-1-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6083-3-4">Sheet.250</title>
+            <path
+               id="path6085-3-5"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,513.50641,-69.233274)"
+             v:groupContext="shape"
+             v:mID="251"
+             id="shape251-595-3-3"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6088-7-0">Sheet.251</title>
+            <path
+               id="path6090-9-7"
+               class="st39"
+               d="m 0,590.54 v 4.74 h 4.75 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,513.50641,-69.233274)"
+             v:groupContext="shape"
+             v:mID="252"
+             id="shape252-597-8-2"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6093-6-9">Sheet.252</title>
+            <path
+               id="path6095-7-9"
+               class="st40"
+               d="m 0,595.28 h 4.75 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,515.18323,-69.233274)"
+             v:groupContext="shape"
+             v:mID="253"
+             id="shape253-600-0-3"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6098-4-0">Sheet.253</title>
+            <path
+               id="path6100-8-2"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,516.86115,-69.233274)"
+             v:groupContext="shape"
+             v:mID="254"
+             id="shape254-603-4-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6103-8-9">Sheet.254</title>
+            <path
+               id="path6105-1-9"
+               class="st39"
+               d="m 0,590.54 v 4.74 h 4.76 v -4.74 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,516.86115,-69.233274)"
+             v:groupContext="shape"
+             v:mID="255"
+             id="shape255-605-6-5"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6108-8-2">Sheet.255</title>
+            <path
+               id="path6110-5-0"
+               class="st40"
+               d="m 0,595.28 h 4.76 v -4.74 H 0 v 4.74 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.61315101;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,519.77942,-67.498094)"
+             v:groupContext="shape"
+             v:mID="256"
+             id="shape256-608-2-8"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6113-1-3">Sheet.256</title>
+            <path
+               id="path6115-9-5"
+               class="st42"
+               d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,519.77942,-67.498094)"
+             v:groupContext="shape"
+             v:mID="257"
+             id="shape257-610-9-9"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6118-6-6">Sheet.257</title>
+            <path
+               id="path6120-0-5"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,520.6528,-67.498094)"
+             v:groupContext="shape"
+             v:mID="258"
+             id="shape258-613-6-6"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6123-4-3">Sheet.258</title>
+            <path
+               id="path6125-9-0"
+               class="st42"
+               d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,520.6528,-67.498094)"
+             v:groupContext="shape"
+             v:mID="259"
+             id="shape259-615-9-2"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6128-0-0">Sheet.259</title>
+            <path
+               id="path6130-8-7"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,519.77942,-68.367654)"
+             v:groupContext="shape"
+             v:mID="260"
+             id="shape260-618-9-4"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6133-3-7">Sheet.260</title>
+            <path
+               id="path6135-1-3"
+               class="st44"
+               d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,519.77942,-68.367654)"
+             v:groupContext="shape"
+             v:mID="261"
+             id="shape261-620-4-0"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6138-8-1">Sheet.261</title>
+            <path
+               id="path6140-9-6"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,520.6528,-68.367654)"
+             v:groupContext="shape"
+             v:mID="262"
+             id="shape262-623-6-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6143-7-5">Sheet.262</title>
+            <path
+               id="path6145-7-7"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,519.77942,-69.251514)"
+             v:groupContext="shape"
+             v:mID="263"
+             id="shape263-626-3-8"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6148-7-8">Sheet.263</title>
+            <path
+               id="path6150-1-9"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,520.6528,-69.251514)"
+             v:groupContext="shape"
+             v:mID="264"
+             id="shape264-629-2-0"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6153-2-7">Sheet.264</title>
+            <path
+               id="path6155-1-8"
+               class="st42"
+               d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,520.6528,-69.251514)"
+             v:groupContext="shape"
+             v:mID="265"
+             id="shape265-631-5-0"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6158-0-3">Sheet.265</title>
+            <path
+               id="path6160-9-1"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,519.77942,-70.114484)"
+             v:groupContext="shape"
+             v:mID="266"
+             id="shape266-634-0-0"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6163-4-3">Sheet.266</title>
+            <path
+               id="path6165-0-6"
+               class="st44"
+               d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,519.77942,-70.114484)"
+             v:groupContext="shape"
+             v:mID="267"
+             id="shape267-636-1-7"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6168-3-3">Sheet.267</title>
+            <path
+               id="path6170-7-2"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,520.6528,-70.114484)"
+             v:groupContext="shape"
+             v:mID="268"
+             id="shape268-639-4-2"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6173-1-1">Sheet.268</title>
+            <path
+               id="path6175-1-5"
+               class="st42"
+               d="m 0,592.81 v 2.47 h 2.48 v -2.47 z"
+               inkscape:connector-curvature="0"
+               style="fill:#3f5765;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+          <g
+             transform="matrix(0.35277725,0,0,0.35277725,520.6528,-70.114484)"
+             v:groupContext="shape"
+             v:mID="269"
+             id="shape269-641-3-3"
+             style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+            <title
+               id="title6178-0-3">Sheet.269</title>
+            <path
+               id="path6180-3-8"
+               class="st43"
+               d="m 0,595.28 h 2.48 v -2.47 H 0 v 2.47 0"
+               inkscape:connector-curvature="0"
+               style="stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" />
+          </g>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="500.62549"
+           y="204.39665"
+           id="text19624-9-2-7"><tspan
+             sodipodi:role="line"
+             x="500.62549"
+             y="204.39665"
+             style="stroke-width:0.26458332"
+             id="tspan19651-2-4">Kibana</tspan><tspan
+             sodipodi:role="line"
+             x="500.62549"
+             y="208.80638"
+             style="stroke-width:0.26458332"
+             id="tspan20229">web browser</tspan></text>
+      </g>
+      <g
+         id="shape742-1004-2-0-6-3"
+         v:mID="742"
+         v:groupContext="shape"
+         transform="matrix(-0.18215181,-0.00224222,0.00154432,-0.2644675,449.11214,320.92764)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6818-7-2-4-6">Sheet.742</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 26.53"
+           class="st13"
+           id="path6820-3-1-9-7" />
+      </g>
+      <g
+         id="shape742-1004-2-0-6-3-5"
+         v:mID="742"
+         v:groupContext="shape"
+         transform="matrix(-0.18215181,-0.00224222,0.00154432,-0.2644675,449.18842,279.13649)"
+         style="font-size:12px;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3">
+        <title
+           id="title6818-7-2-4-6-3">Sheet.742</title>
+        <path
+           style="stroke:#127575;stroke-width:2.5;stroke-linecap:butt"
+           inkscape:connector-curvature="0"
+           d="M 0,595.28 H 26.53"
+           class="st13"
+           id="path6820-3-1-9-7-5" />
+      </g>
+    </g>
+  </g>
+  <style
+     id="style4591"
+     type="text/css"><![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Cambria;font-size:0.666664em}
+		.st3 {font-size:1em}
+		.st4 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#000000;font-family:Cambria;font-size:0.833336em}
+		.st6 {fill:#3f5765;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#19486f;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st8 {fill:#3f5765;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st9 {fill:#000000;font-family:Cambria;font-size:1.00001em}
+		.st10 {fill:#5b9bd5;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#ffffff;stroke:#ffffff;stroke-linecap:butt;stroke-width:1.275}
+		.st12 {fill:#3f5765;stroke:none;stroke-linecap:butt;stroke-width:0.6375}
+		.st13 {stroke:#127575;stroke-linecap:butt;stroke-width:2.5}
+		.st14 {stroke:#127575;stroke-linecap:butt;stroke-width:1.5}
+		.st15 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st16 {fill:#000000;font-family:Cambria;font-size:1.5em;font-weight:bold}
+		.st17 {stroke:#127575;stroke-linecap:butt;stroke-width:11.25}
+		.st18 {marker-end:url(#mrkr5-329);marker-start:url(#mrkr5-327);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st19 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st20 {fill:#ff00ff;fill-opacity:0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0;stroke-width:0.72}
+		.st21 {fill:url(#grad0-351)}
+		.st22 {stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.36}
+		.st23 {fill:url(#grad11-356)}
+		.st24 {stroke:#a78450;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.36}
+		.st25 {fill:url(#grad12-363);stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.36}
+		.st26 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st27 {fill:url(#grad12-363);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.36}
+		.st28 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.6}
+		.st29 {fill:#3f5765;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.36}
+		.st30 {fill:url(#grad8-383);stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.12}
+		.st31 {fill:url(#grad10-387);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.12}
+		.st32 {fill:#3f5765;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st33 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.36}
+		.st34 {fill:#ffffff;stroke:#127575;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.5}
+		.st35 {fill:#00b0f0;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st36 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st37 {fill:#ffffff;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st38 {stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st39 {fill:#3f5765;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st40 {stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.613151}
+		.st41 {fill:#ffffff;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st42 {fill:#3f5765;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st43 {stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st44 {fill:#ffffff;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st45 {visibility:visible}
+		.st46 {marker-end:url(#mrkr5-329);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st47 {fill:#9a9a9a;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st48 {fill:#e6e6e6;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st49 {fill:#c0c0c0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st50 {fill:url(#grad8-733);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st51 {fill:#c0c0c0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.12}
+		.st52 {fill:url(#grad1-743);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.12}
+		.st53 {fill:url(#grad1-747);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st54 {fill:url(#grad1-754);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st55 {fill:#9a9a9a;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st56 {fill:url(#grad10-760);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.12}
+		.st57 {fill:url(#grad10-769);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.12}
+		.st58 {fill:#dbdac6;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.12}
+		.st59 {stroke:#00ff00;stroke-linecap:butt;stroke-width:0.24}
+		.st60 {fill:url(#grad0-789);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st61 {fill:url(#grad0-793);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st62 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st63 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;visibility:hidden}
+		.st64 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]></style>
+</svg>
