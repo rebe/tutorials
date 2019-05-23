@@ -5,6 +5,7 @@ version: '3'
 services:
 
   fluentd:
+    container_name: wm-fluentd
     image: wirepas/fluentd:latest
     build: .
     volumes:

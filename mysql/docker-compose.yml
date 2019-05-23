@@ -7,9 +7,9 @@
 
 version: '2'
 services:
-    db:
-        container_name: wm_mysql
-        image: wm_mysql:1.0.0
+    wm-mysql:
+        container_name: wm-mysql
+        image: wirepas/mysql:latest
         build: .
 
         environment:

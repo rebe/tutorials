@@ -10,6 +10,3 @@ GRANT ALL PRIVILEGES ON *.* To 'myuser'@'%';
 SET GLOBAL max_connections = 200;
 SET GLOBAL wait_timeout = 60;
 SET GLOBAL thread_cache_size = 32;
-
-
-

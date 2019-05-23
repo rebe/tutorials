@@ -3,7 +3,8 @@
 version: '2'
 services:
     wm-broker-bridge:
-        image: wm-broker-bridge
+        container_name: wm-broker-bridge
+        image: wirepas/mosquitto-bridge
         build: .
 
         restart: always
