@@ -7,7 +7,6 @@ The next sections will guide you on how to setup [Kibana](https://www.elastic.co
 Figure 1 describes the architecture that we will result from this exercise
 as well as the APIs used between components.
 
-
 ![cookbook visualization overview][wm_cookbook_viz_overview]
 
 **Figure 1 -** Overview of the final service setup after going through this guide.
@@ -17,7 +16,7 @@ host with all the pre-requisites met. The 3rd party services are setup
 on top of the Docker Engine, which is also available for MacOS and Windows.
 
 For your convenience, you can review and extend the [helper script which
-contains all the steps in this guide](./visualizations_helpers.sh).
+contains all the steps in this guide](./visualizations_helper.sh).
 
 ## Pre-requisites
 
@@ -105,7 +104,7 @@ or command explicitly to the docker-compose utility, eg,
 
 In this example we will be using:
 
--   [Protocol buffer definitions for the WP-RM-128 interface](https://github.com/wirepas/backend-apis/tree/master/gateway_to_backend/protocol_buffers_files))
+-   [Protocol buffer definitions for the WP-RM-128 interface](https://github.com/wirepas/backend-apis/tree/master/gateway_to_backend/protocol_buffers_files)
 
 -   [Node-RED](https://nodered.org/)
 
@@ -117,7 +116,7 @@ Change directory to:
    cd /home/${USER}/wirepas/tutorials/node_red
 ```
 
-Where you will find in the [instructions on how to setup Node-RED on top of Docker](https://github.com/wirepas/tutorials/blob/master/node_red/README.rst).
+Where you will find in the [instructions on how to setup Node-RED on top of Docker](https://github.com/wirepas/tutorials/blob/master/node_red/README.md).
 
 As packets arrive, the flow will decode the protocol buffer and expose common metrics. You can customize the flow further in order to decode any network payload or route data towards a service of your choice.
 
@@ -148,11 +147,7 @@ Change directory to:
    cd /home/${USER}/wirepas/tutorials/fluentd
 ```
 
-Read the [installation steps](https://github.com/wirepas/tutorials/tree/master/fluentd) and start the service with
-
-```bash
-   docker-compose up -d
-```
+Read the [installation steps](https://github.com/wirepas/tutorials/tree/master/fluentd) and start the service.
 
 Change directory again to
 
@@ -160,12 +155,7 @@ Change directory again to
    cd /home/${USER}/wirepas/tutorials/elastic_search
 ```
 
-Read the [installation steps](https://github.com/wirepas/tutorials/tree/master/elastic_search), **fulfill the requirements** and start the service
-with
-
-```bash
-   docker-compose up -d
-```
+Read the [installation steps](https://github.com/wirepas/tutorials/tree/master/elastic_search), **fulfill the requirements** and start the service.
 
 Inspect the status of fluentd, kibana and elasticsearch using
 
