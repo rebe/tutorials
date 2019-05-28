@@ -1,0 +1,123 @@
+# Wirepas Oy
+
+version: '2'
+services:
+
+  # this is not recommended for production - you should have more es nodes
+  elasticsearch:
+    container_name: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
+
+    environment:
+      - bootstrap.memory_lock=true
+      - cluster.name=docker-cluster
+      - node.name=elasticsearch
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+
+    restart: always
+
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+    volumes:
+      - esdata_node1:/usr/share/elasticsearch/data
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+
+    ports:
+      - 9200:9200
+
+    logging:
+      driver: journald
+
+    networks:
+      - fluentd_stream_processing
+      - elastic_network
+
+  elasticsearch_node2:
+    container_name: elasticsearch_node2
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
+
+    environment:
+      - bootstrap.memory_lock=true
+      - node.name=elasticsearch_node2
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+
+    restart: always
+
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+    volumes:
+      - esdata_node2:/usr/share/elasticsearch/data
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+
+    logging:
+      driver: journald
+
+    networks:
+      - fluentd_stream_processing
+      - elastic_network
+
+  elasticsearch_node3:
+    container_name: elasticsearch_node3
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
+
+    environment:
+      - bootstrap.memory_lock=true
+      - node.name=elasticsearch_node3
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+
+    restart: always
+
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+    volumes:
+      - esdata_node3:/usr/share/elasticsearch/data
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+
+    logging:
+      driver: journald
+
+    networks:
+      - fluentd_stream_processing
+      - elastic_network
+
+
+  kibana:
+    container_name: kibana
+    image: docker.elastic.co/kibana/kibana:7.1.0
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+
+    restart: always
+
+    ports:
+      - 5601:5601
+
+    networks:
+      - elastic_network
+
+    logging:
+      driver: journald
+
+volumes:
+  esdata_node1:
+    driver: local
+
+  esdata_node2:
+    driver: local
+
+  esdata_node3:
+    driver: local
+
+networks:
+  elastic_network:
+  fluentd_stream_processing:
+    external: true
