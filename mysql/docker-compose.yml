@@ -30,7 +30,9 @@ services:
             - 3306:3306
 
         logging:
-            driver: journald
+            driver: json-file
+            options:
+                max-size: "1M"
 
 # persistent data location
 volumes:

@@ -14,7 +14,9 @@ services:
             - 8883:8883
 
         logging:
-            driver: journald
+            driver: json-file
+            options:
+                max-size: "1M"
 
         volumes:
           - ./mosquitto.conf:/etc/mosquitto/conf.d/wirepas.conf

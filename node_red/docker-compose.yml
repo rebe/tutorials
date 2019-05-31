@@ -12,4 +12,6 @@ services:
             - 1880:1880
 
         logging:
-            driver: journald
+            driver: json-file
+            options:
+                max-size: "1M"
