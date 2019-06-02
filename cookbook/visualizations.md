@@ -12,11 +12,15 @@ as well as the APIs used between components.
 **Figure 1 -** Overview of the final service setup after going through this guide.
 
 The instructions assume that you will be making the installation on a Linux
-host with all the pre-requisites met. The 3rd party services are setup
-on top of the Docker Engine, which is also available for MacOS and Windows.
+host with all the pre-requisites met. The examples in this repository also
+work with Windows and MacOS. If you are using one of those operation systems,
+please ensure you have docker engine properly setup according to the [official
+instructions](https://docs.docker.com/install/).
 
 For your convenience, you can review and extend the [helper script which
-contains all the steps in this guide](./visualizations_helper.sh).
+contains all the steps in this guide](https://github.com/wirepas/tutorials/blob/master/cookbook/visualizations_helper.sh)
+or use the [compose file](https://github.com/wirepas/tutorials/blob/master/cookbook/visualizations-docker-compose.yml) to setup all the necessary elements with a single file.
+
 
 ## Pre-requisites
 
