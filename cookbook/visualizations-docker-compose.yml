@@ -1,0 +1,132 @@
+# Wirepas Oy
+#
+# This docker compose is an example and should not be used for production
+# environments. This is solely for demonstration and evaluation purposes.
+#
+# For a successful setup please change the backend-client command
+# with the mqtt settings that apply to your case. Pay special attention
+# to the values in:
+#
+#            "--mqtt_hostname=< IP or hostname of your MQTT broker >",
+#            "--mqtt_username=< username >",
+#            "--mqtt_password=< password >",
+#
+# If you want to connect against the mqtt-broker service, the command
+# must be changed to
+#
+#        command: [
+#            "python",
+#            "examples/mqtt_viewer.py",
+#            "--mqtt_hostname=mqtt-broker",
+#            "--mqtt_username=mqttuser",
+#            "--mqtt_password=aoiuashn0p1284eydh190sa1237",
+#            "--mqtt_port=1883",
+#            "--mqtt_force_unsecure",
+#            "--fluentd_hostname=fluentd",
+#            "--fluentd_record=app",
+#            "--fluentd_tag=ruuvi"
+#        ]
+
+version: '2'
+services:
+
+    # An example mqtt broker
+    mqtt-broker:
+        container_name: mqtt-broker
+        image: wirepas/mosquitto
+        restart: always
+        networks:
+            - cookbook_visualization
+        ports:
+            - 1883:1883
+            - 8883:8883
+        logging:
+            driver: json-file
+            options:
+                max-size: "1M"
+
+    # Handles the decoding of network packets
+    backend-client:
+        container_name: backend-client
+        image: wirepas/backend-client:edge
+        restart: always
+        networks:
+            - cookbook_visualization
+
+        environment:
+          - WM_DEBUG_LEVEL=info
+          - PYTHONUNBUFFERED=true
+
+        command: [
+            "python",
+            "examples/mqtt_viewer.py",
+            "--mqtt_hostname=mqtthostname",
+            "--mqtt_username=mqttuser",
+            "--mqtt_password=mqttpassword",
+            "--mqtt_port=8883",
+            "--fluentd_hostname=fluentd",
+            "--fluentd_record=app",
+            "--fluentd_tag=ruuvi"
+        ]
+
+        logging:
+            driver: json-file
+            options:
+                max-size: "1M"
+
+    # Fluentd - logs events into elastic search
+    fluentd:
+        container_name: fluentd
+        image: wirepas/fluentd:latest
+        restart: always
+        networks:
+            - cookbook_visualization
+        logging:
+            driver: json-file
+            options:
+                max-size: "1M"
+
+    # ELK stack
+    elasticsearch:
+        container_name: elasticsearch
+        image: docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+
+        environment:
+          - discovery.type=single-node
+          - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+
+        restart: always
+
+        volumes:
+            - esdata:/usr/share/elasticsearch/data
+
+        networks:
+            - cookbook_visualization
+
+
+        logging:
+            driver: json-file
+            options:
+                max-size: "1M"
+
+    kibana:
+        container_name: kibana
+        image: docker.elastic.co/kibana/kibana:7.1.1
+        environment:
+            - elasticsearch.hosts=["http://elasticsearch:9200"]
+        restart: always
+        ports:
+            - 5601:5601
+        networks:
+            - cookbook_visualization
+        logging:
+            driver: json-file
+            options:
+                max-size: "1M"
+
+volumes:
+  esdata:
+    driver: local
+
+networks:
+  cookbook_visualization:
