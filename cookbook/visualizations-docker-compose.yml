@@ -33,7 +33,7 @@ services:
     # An example mqtt broker
     mqtt-broker:
         container_name: mqtt-broker
-        image: wirepas/mosquitto
+        image: wirepas/mosquitto:latest
         restart: always
         networks:
             - cookbook_visualization
@@ -45,10 +45,20 @@ services:
             options:
                 max-size: "1M"
 
+    node_red:
+        image: wirepas/node-red:latest
+        restart: always
+        ports:
+            - 1880:1880
+        logging:
+            driver: json-file
+            options:
+                max-size: "1M"
+
     # Handles the decoding of network packets
     backend-client:
         container_name: backend-client
-        image: wirepas/backend-client:edge
+        image: wirepas/backend-client:latest
         restart: always
         networks:
             - cookbook_visualization
