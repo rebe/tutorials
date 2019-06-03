@@ -21,24 +21,62 @@ you will find useful receipts on how to put several of these services together.
 
 ## Requirements
 
-Using the examples in this repository requires that you have docker and
-docker-compose installed on your system. Please review
-[Docker's installation instructions](https://docs.docker.com/install/)
-or use the convenience script from [get.docker.com](https://get.docker.com>).
+The examples in this repository require that your host has the following
+dependencies:
 
-Using the convenience script you can install docker with the following one liner
+-   Python (recommended > 3.6)
 
-```bash
-   curl https://get.docker.com/ | sh
-```
+-   Pip or equivalent
 
-To install docker-compose you must have python and pip (recommended)
-on your host. If you match these requirements you can
-install docker-compose using the following command
+-   Docker engine (any version compatible with compose 2.0)
+
+-   Docker compose (latest available)
+
+Ensure Python is installed by typing on a terminal
 
 ```bash
-    pip install docker-compose
+   python --version
 ```
+
+If the command succeeds, you will be shown the current version of python installed on your system. In case it fails, please use
+your distribution's package manager on how to download and install Python.
+
+Afterwards, check if pip is installed by typying the command
+
+```bash
+   pip --version
+```
+
+If it fails to install please use your distribution's channel or follow the installation tips in [Pip's page](https://pip.pypa.io/en/stable/installing/).
+
+To check if docker is installed type
+
+```bash
+   docker --version
+```
+
+If the command fails, please review the [official installation instructions](https://docs.docker.com/install/) on how to install Docker
+on your host.
+
+Similarly, check if docker-compose is installed by typying
+
+```bash
+   docker-compose --version
+```
+
+If the command fails install docker-compose with
+
+```bash
+   pip install --user docker-compose
+```
+
+After the installation, please ensure that your PATH variable contains the path where docker-compose is installed to:
+
+```bash
+   PATH=${PATH}:\~./local/bin
+```
+
+Add the instruction to your *.bashrc* file in order to preserve the path between terminal sessions.
 
 ## Docker builds
 
