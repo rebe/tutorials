@@ -1,6 +1,6 @@
 # Wirepas Oy
 
-FROM eclipse-mosquitto:1.4.12
+FROM eclipse-mosquitto:1.6.2
 
 # 1883 for local talk and 8883 for ssl
 EXPOSE 1883/tcp
